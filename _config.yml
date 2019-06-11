@@ -14,7 +14,7 @@ picture: assets/images/yuna.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url:  assets/images/毛玉娜简历-20190611.pdf
 
 url: https://yunamao.github.io/myn
 # your url: http://USERNAME.github.io
