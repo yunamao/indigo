@@ -2,7 +2,7 @@
 title: Publications
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+#![Profile Image]({{ site.url }}/{{ site.picture }})
 
 
 <p style="font-weight:bold;" style="color:blue;">
