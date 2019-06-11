@@ -11,7 +11,7 @@ layout: page
 2019</p>
 
 <ul>
-	<li> <p align="left"> Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Spatiotemporal Characteristics of Global Flood Inundation during 1953-2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
+	<li> <p align="left"> Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
 	
 	<li> <p> Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)</p> </li>
 
