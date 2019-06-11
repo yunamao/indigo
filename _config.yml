@@ -1,7 +1,11 @@
 # main text of home
 name: Yuna Mao
-bio:!!seq [ Research interests, Global hydrologic cycle simuation in E3SM earth system model, Evapotranspiration,  Development and simulation of distributed hydrologial model,      # Rocks
-                      Applications of RS/GIS in hyrology ]  
+bio: 
+  Research interests:
+  Global hydrologic cycle simuation in E3SM earth system model:
+  Evapotranspiration:
+  Development and simulation of distributed hydrologial model:
+  Applications of RS/GIS in hyrology:  
 
 # twitter summary info
 description: A blog about technology and stuff related
