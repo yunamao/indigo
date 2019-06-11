@@ -4,7 +4,8 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p align="left">
+
+<p style="font-weight:bold;">font-weight: bold
 2019</p>
 <p align="left">Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Spatiotemporal Characteristics of Global Flood Inundation during 1953-2004, Journal of Advances in Modeling Earth Systems. (under view)</p>
 <p>
