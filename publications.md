@@ -17,13 +17,8 @@ layout: page
 
 </ul>
 
-
-<p style="font-weight:bold;" style="color:blue;">
-2018</p>
-
-<ul>
-    <li> <p style="font-weight:bold;" style="color:blue;">2017</p> </li>
-	
+ <p style="font-weight:bold;" style="color:blue;">2017</p> 
+<ul>	
 	<li> <p> Yuna Mao and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: 10.1002/2016JD026065. </p>   </li>
 </ul>
 
