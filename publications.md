@@ -4,7 +4,8 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>2019
+<p>
+2019
 Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Spatiotemporal Characteristics of Global Flood Inundation during 1953-2004, Journal of Advances in Modeling Earth Systems. (under view)
 Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)
 Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)
@@ -12,15 +13,20 @@ Yuna Mao, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simu
 
 <p>2018
 </p>
-<p>2017
+<p>
+2017
 Yuna Mao and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water     Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: 10.1002/2016JD026065. 
 </p>
-<p>2016
+
+<p>
+2016
 Yuna Mao, Kaicun Wang, Xiaomang Liu, and Changming Liu, 2016. Water Storage in Reservoirs Built from 1997 to 2014 Significantly Altered the Calculated Evapotranspiration Trends over China[J]. Journal of Geograhphcal Research: Atmosphere, 121(17),10097-10112, doi: 10.1002/2016JD025447.
 Yuna Mao, Aizhong Ye, Xiaojie Liu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di, 2016. High-resolution simulation of the spatial pattern of water use in continental China[J]. Hydrological science journal, 1-13, doi: 10.1080/02626667.2016.1153102.
 陈凯, 罗兆楠, 王小松, 毛玉娜, 2016. 特高压工程施工利用高分二号遥感影像进行水土保持远程监测研究. 地理信息世界, 23.
 </p>
-<p>2011-2015
+
+<p>
+2011-2015
 Yuna Mao, Aizhong Ye, Jing Xu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di , 2014. An advanced distributed automated extraction of drainage network model on high-resolution DEM[J]. Hydrol. Earth Syst. Sci. Discuss., 11, 7441-7467, doi:10.5194/hessd-11-7441-2014.
 Haicheng Zhang, Shuguang Liu, Wenping Yuan, Wenjie Dong, Aizhong Ye, Xianhong Xie, Yang Chen, Dan Liu, Wenwen Cai, and Yuna Mao, 2014. Inclusion of soil carbon lateral movement alters terrestrial carbon budget in China.Scientific Reports, 4(10). 1038. 
 Feng Ma, Aizhong Ye, Wei Gong, Yuna Mao, Chiyuan Miao and Zhenhua Di, 2014. An estimate of human and natural contributions to flood changes of the Huai River. Global and Planetary Change, 119(0): 39-50. 
