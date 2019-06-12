@@ -56,9 +56,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>2008 年：国家励志奖学金，校三好学生，优秀团员，一等奖学金 </li>
 </ul>
 
-<h2>计算机语言</h2>
+<h2>专业技能</h2>
 
-<p> 熟练运用C语言，Matlab，Linux bash/csh，熟悉C++，VB，Fortran，Html，Python</p>
+<p> 计算机语言：C语言，Matlab，Linux shell，Fortran，Html，Python</p>
+<p> GIS专业软件：Arcgis，ENVI，Mapinfo，MapGis，Supermap</p>
+<p> 地球系统模式：Energy Exascale Earth System Model（E3SM）</p>
+<p> 水文模型：DTVGM，SWAT, VIC</p>
+<p> 其它：Endnote，Photoshop，SPSS，Origin</p>
+
 
 <h2>英语水平</h2>
 
