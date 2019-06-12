@@ -15,7 +15,6 @@ layout: page
 	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
 	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)</p> 	</li>
 	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)</p> </li>
-
 </ul>
 
  <p style="font-weight:bold;" style="color:blue;">2017</p> 
@@ -37,32 +36,15 @@ layout: page
 2011-2015</p>
 
 <ul>
-<li> <p>
-<strong>Yuna Mao</strong>, Aizhong Ye, Jing Xu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di , 2014. An advanced distributed automated extraction of drainage network model on high-resolution DEM[J]. Hydrol. Earth Syst. Sci. Discuss., 11, 7441-7467, doi:10.5194/hessd-11-7441-2014.</p> </li>
-
-<li> <p>
-Haicheng Zhang, Shuguang Liu, Wenping Yuan, Wenjie Dong, Aizhong Ye, Xianhong Xie, Yang Chen, Dan Liu, Wenwen Cai, and <strong>Yuna Mao</strong>, 2014. Inclusion of soil carbon lateral movement alters terrestrial carbon budget in China.Scientific Reports, 4(10). 1038.</p> </li>
-
-<li> <p>
-Feng Ma, Aizhong Ye, Wei Gong, <strong>Yuna Mao</strong>, Chiyuan Miao and Zhenhua Di, 2014. An estimate of human and natural contributions to flood changes of the Huai River. Global and Planetary Change, 119(0): 39-50.</p> </li>
-
-<li> <p>
-Aizhong Ye, Qingyun Duan, Chesheng Zhan, Zhaofei Liu and <strong>Yuna Mao</strong>, 2013. Improving kinematic wave routing scheme in Community Land Model. Hydrology Research, 2013, 44. 886-903.</p> </li>
-
-<li> <p>
-Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <strong>Yuna Mao</strong>, 2013. The impact of the South–North Water Transfer Project (CTP)'s central route on groundwater table in the Hai River basin, North China. Hydrological Processes, 28(23): 5755-5768.</p> </li>
-
-<li> <p>
-<strong>Yuna Mao</strong>, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Population Distribution of China in 2000[J]. GIScience & Remote Sensing, 49(6), 822–853, doi: 10.2747/1548-1603.49.6.822.</p> </li>
-
-<li> <p>
-徐 静, 叶爱中, <strong>毛玉娜</strong>, 邓斅学, 2014. 水文集合预报研究与应用综述[J]. 南水北调与水利科技, 01.</p> </li>
-
-<li> <p>
-<strong>毛玉娜</strong>，叶爱中，徐静, 2014.辽河流域径流过程模拟的空间尺度效应分析 [J],水文. 34(2):19-24. </p> </li>
-
- <li> <p>
-<strong>毛玉娜</strong>,叶爱中,王雪蕾, 张永勇, 2013. 基于GIS-RS的非点源污染模型研究进展[J]. 北京师范大学学报(自然科学版), 04:407-416. </p> </li>
+<li> <p><strong>Yuna Mao</strong>, Aizhong Ye, Jing Xu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di , 2014. An advanced distributed automated extraction of drainage network model on high-resolution DEM[J]. Hydrol. Earth Syst. Sci. Discuss., 11, 7441-7467, doi:10.5194/hessd-11-7441-2014.</p> </li>
+<li> <p>Haicheng Zhang, Shuguang Liu, Wenping Yuan, Wenjie Dong, Aizhong Ye, Xianhong Xie, Yang Chen, Dan Liu, Wenwen Cai, and <strong>Yuna Mao</strong>, 2014. Inclusion of soil carbon lateral movement alters terrestrial carbon budget in China.Scientific Reports, 4(10). 1038.</p> </li>
+<li> <p>Feng Ma, Aizhong Ye, Wei Gong, <strong>Yuna Mao</strong>, Chiyuan Miao and Zhenhua Di, 2014. An estimate of human and natural contributions to flood changes of the Huai River. Global and Planetary Change, 119(0): 39-50.</p> </li>
+<li> <p>Aizhong Ye, Qingyun Duan, Chesheng Zhan, Zhaofei Liu and <strong>Yuna Mao</strong>, 2013. Improving kinematic wave routing scheme in Community Land Model. Hydrology Research, 2013, 44. 886-903.</p> </li>
+<li> <p>Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <strong>Yuna Mao</strong>, 2013. The impact of the South–North Water Transfer Project (CTP)'s central route on groundwater table in the Hai River basin, North China. Hydrological Processes, 28(23): 5755-5768.</p> </li>
+<li> <p><strong>Yuna Mao</strong>, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Population Distribution of China in 2000[J]. GIScience & Remote Sensing, 49(6), 822–853, doi: 10.2747/1548-1603.49.6.822.</p> </li>
+<li> <p>徐 静, 叶爱中, <strong>毛玉娜</strong>, 邓斅学, 2014. 水文集合预报研究与应用综述[J]. 南水北调与水利科技, 01.</p> </li>
+<li> <p><strong>毛玉娜</strong>，叶爱中，徐静, 2014.辽河流域径流过程模拟的空间尺度效应分析 [J],水文. 34(2):19-24. </p> </li>
+ <li> <p><strong>毛玉娜</strong>,叶爱中,王雪蕾, 张永勇, 2013. 基于GIS-RS的非点源污染模型研究进展[J]. 北京师范大学学报(自然科学版), 04:407-416. </p> </li>
 </ul>
 
 <h2>著作参与</h2>
