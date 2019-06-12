@@ -8,7 +8,7 @@ layout: page
 -->
 
 <h2>我</h2>
-<img border="0" src="/assets/images/工作生活家庭1.png " alt="我" width="304" height="228" />
+<img border="0" src="工作生活家庭1.png " alt="我" width="304" height="228" />
 
 
 <!-- 
