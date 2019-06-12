@@ -3,12 +3,8 @@ title: About
 layout: page
 ---
 
-<!-- 
-<img src="assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
--->
 
-<h2>我</h2>
-<img src="工作生活家庭1.png" alt="我" width="304" height="228">
+<img src="assets/images/MYLIFE.png" style="width:128px;height:128px;">
 
 
 <!-- 
