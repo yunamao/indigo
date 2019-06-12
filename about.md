@@ -6,7 +6,7 @@ layout: page
 <!-- 
 <img src="assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
 -->
-<img src="/assets/images/工作生活家庭1.png">
+<img src="/assets/images/工作生活家庭1.png" ALT="我" WIDTH=32 HEIGHT=32>
 
 
 <!-- 
@@ -25,7 +25,7 @@ layout: page
 	<li>E3SM地球系统模式中全球水文循环模拟与分析；</li>
 	<li>卫星遥感陆表蒸散发；</li>
 	<li>分布式水文模型开发与应用； </li>
-	<li> RS/GIS 在水文或者电力方面的应用；</li>
+	<li>RS/GIS 在水文或者电力方面的应用；</li>
 </ul>
 
 
