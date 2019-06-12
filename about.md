@@ -74,10 +74,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>大学生英语四级 (CET-4):   557 (2008)；</li>
 </ul>
 
+<!-- 
 <h2>Projects</h2>
-
+-->
+<!-- 
 <ul>
 	<li><a href="https://github.com/">Lorem Lorem</a></li>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
+-->
