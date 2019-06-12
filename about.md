@@ -7,10 +7,13 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
-
+<body style="background-color:powderblue;">
 <p>热爱工作.</p>
 <p>热爱家庭.</p>
 <p>热爱生活.</p>
+
+</body>
+
 
 
 <h2>主要研究内容</h2>
