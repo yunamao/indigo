@@ -3,9 +3,9 @@ title: publications
 layout: page
 ---
 
-<!-- 
+
 ![Profile Image]({{ site.url }}/{{ site.picture }})
--->
+
 
 <h2>发表论文</h2>
 
