@@ -6,10 +6,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
-<h2>论文发表</h2>
-
-<ul class="skill-list">
-</ul>
+<h2>Publications</h2>
 
 <p style="font-weight:bold;" style="color:blue;">
 2019</p>
@@ -69,6 +66,15 @@ Yuna Mao, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Pop
  <li> <p>
 毛玉娜,叶爱中,王雪蕾, 张永勇, 2013. 基于GIS-RS的非点源污染模型研究进展[J]. 北京师范大学学报(自然科学版), 04:407-416. </p> </li>
 </ul>
+
+<h2>Books</h2>
+
+<ul class="skill-list">
+	<li>《空间信息技术考古学应用方法》，电子工业出版社（毛锋，2016年1月）；</li>
+	<li>《京杭大运河历史与复兴》，电子工业出版社（毛锋等，2014年10月）；</li>
+	<li>《京杭大运河开凿与变迁》，电子工业出版社（毛锋等，2014年9月）；</li>
+</ul>
+
 
 <h2>Computer Skills</h2>
 
