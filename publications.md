@@ -22,7 +22,7 @@ layout: page
  <p style="font-weight:bold;" style="color:blue;">2017</p>
  
 <ul>	
-	<li><p><strong>Yuna Mao</strong> and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JD026065"></a> </p> </li>
+	<li><p><strong>Yuna Mao</strong> and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JD026065">10.1002/2016JD026065</a> </p> </li>
 </ul>
 
 <p style="font-weight:bold;" style="color:blue;">
