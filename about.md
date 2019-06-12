@@ -6,7 +6,7 @@ layout: page
 <!-- 
 <img src="assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
 -->
-<img src="/assets/images/工作生活家庭1.png" ALT="我" WIDTH=32 HEIGHT=32>
+<img src="/assets/images/工作生活家庭1.png" ALT="我" WIDTH=120 HEIGHT=120/>
 
 
 <!-- 
