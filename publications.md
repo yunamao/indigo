@@ -12,11 +12,11 @@ layout: page
 2019</p>
 
 <ul>
-	<li> <p align="left"> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
+	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
 	
 	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)</p> </li>
 
-	<li> <p><strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)</p> </li>
+	<li> <p> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)</p> </li>
 
 </ul>
 
