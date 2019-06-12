@@ -58,12 +58,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>计算机语言</h2>
 
-<ul class="skill-list">
-	<li>C语言</li>
-	<li>Matlab</li>
-	<li>Linux</li>
-	<li>Python</li>
-</ul>
+<p> C，C++，VB, Matlab，Linux bash/csh，Fortran, Html,Python</p>
 
 <h2>英语水平</h2>
 
