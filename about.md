@@ -57,13 +57,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </ul>
 
 <h2>专业技能</h2>
-
-<p> 计算机语言：C语言，Matlab，Linux shell，Fortran，Html，Python</p>
-<p> GIS专业软件：Arcgis，ENVI，Mapinfo，MapGis，Supermap</p>
-<p> 地球系统模式：Energy Exascale Earth System Model（E3SM）</p>
-<p> 水文模型：DTVGM，SWAT, VIC</p>
-<p> 其它：Endnote，Photoshop，SPSS，Origin</p>
-
+<ul type="square">
+<li>计算机语言：C语言，Matlab，Linux shell，Fortran，Html，Python</li>
+<li>GIS专业软件：Arcgis，ENVI，Mapinfo，MapGis，Supermap</li>
+<li>地球系统模式：Energy Exascale Earth System Model（E3SM）</li>
+<li>水文模型：DTVGM，SWAT, VIC</li>
+<li>其它：Endnote，Photoshop，SPSS，Origin</li>
+</ul>
 
 <h2>英语水平</h2>
 
