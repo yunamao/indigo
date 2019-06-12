@@ -7,12 +7,9 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
-<body style="background-color:powderblue;">
-<p>热爱工作.</p>
-<p>热爱家庭.</p>
-<p>热爱生活.</p>
-
-</body>
+<p style="color:blue;"  style="font-family:Cursive;" style="text-align:center;">热爱工作.</p>
+<p style="color:blue;" style="font-family:Cursive;" style="text-align:center;">热爱家庭.</p>
+<p style="color:blue;" style="font-family:Cursive;" style="text-align:center;">热爱生活.</p>
 
 
 
