@@ -2,15 +2,16 @@
 title: About
 layout: page
 ---
+<img src="/assets/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
 
 <!-- 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
-
+<!--
 <p style="color:blue;"  style="font-family:Cursive;" style="text-align:center;">热爱工作.</p>
 <p style="color:blue;" style="font-family:Cursive;" style="text-align:center;">热爱家庭.</p>
 <p style="color:blue;" style="font-family:Cursive;" style="text-align:center;">热爱生活.</p>
-
+-->
 
 
 <h2>主要研究内容</h2>
