@@ -2,7 +2,7 @@
  
 %}{% assign showHeader = true %}{% endif %}
 
-<!--  
+<!-- commented out by yuna 6/12/2019
 {% if page.title == "Home"
    or page.title == "Blog"
    or page.title == "Projects"
@@ -16,8 +16,10 @@
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
+                
+              <!--  <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />-->
+            
+        </a>
         {% else %}
             <span class="link">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
