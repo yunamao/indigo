@@ -2,9 +2,9 @@
 title: About
 layout: page
 ---
-<picture>
- <img src="/assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
-</picture>
+
+ <img src="assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
+
 
 
 <!-- 
