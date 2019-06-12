@@ -1,11 +1,15 @@
+{% if page.title == "Home"%}
+assign showHeader = true
+{% endif %}
 
+<!--commented out by yuna 6/12/2019
 {% if page.title == "Home"
    or page.title == "Blog"
    or page.title == "Projects"
    or page.title == "Tags"
    or page.title == "publications"
 %}{% assign showHeader = true %}{% endif %}
-
+-->
 
 
 {% if showHeader == true %}
