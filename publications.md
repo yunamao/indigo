@@ -6,7 +6,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
-<h2>Publications</h2>
+<h2>论文发表</h2>
 
 <p style="font-weight:bold;" style="color:blue;">
 2019</p>
@@ -67,7 +67,7 @@ Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <b>Yuna Mao</b>, 2013. The impact
 <b>毛玉娜</b>,叶爱中,王雪蕾, 张永勇, 2013. 基于GIS-RS的非点源污染模型研究进展[J]. 北京师范大学学报(自然科学版), 04:407-416. </p> </li>
 </ul>
 
-<h2>Books</h2>
+<h2>著作参与</h2>
 
 <ul class="skill-list">
 	<li>《空间信息技术考古学应用方法》，电子工业出版社（毛锋，2016年1月）；</li>
