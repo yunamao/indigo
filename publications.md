@@ -6,6 +6,10 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
+<h2>论文发表</h2>
+
+<ul class="skill-list">
+</ul>
 
 <p style="font-weight:bold;" style="color:blue;">
 2019</p>
