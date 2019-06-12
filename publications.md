@@ -6,7 +6,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 -->
 
-<h2>论文发表</h2>
+<h2>发表论文</h2>
 
 <p style="font-weight:bold;" style="color:blue;">
 2019</p>
@@ -47,7 +47,7 @@ layout: page
  <li> <p><b>毛玉娜</b>,叶爱中,王雪蕾, 张永勇, 2013. 基于GIS-RS的非点源污染模型研究进展[J]. 北京师范大学学报(自然科学版), 04:407-416. </p> </li>
 </ul>
 
-<h2>著作参与</h2>
+<h2>参与著作</h2>
 
 <ul class="skill-list">
 	<li>《空间信息技术考古学应用方法》，电子工业出版社（毛锋，2016年1月）；</li>
@@ -55,20 +55,3 @@ layout: page
 	<li>《京杭大运河开凿与变迁》，电子工业出版社（毛锋等，2014年9月）；</li>
 </ul>
 
-
-<h2>Computer Skills</h2>
-
-<ul class="skill-list">
-	<li>C语言</li>
-	<li>Matlab</li>
-	<li>Linux</li>
-	<li>Python</li>
-</ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
