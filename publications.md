@@ -58,7 +58,7 @@ Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <strong>Yuna Mao</strong>, 2013. 
 <strong>Yuna Mao</strong>, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Population Distribution of China in 2000[J]. GIScience & Remote Sensing, 49(6), 822–853, doi: 10.2747/1548-1603.49.6.822.</p> </li>
 
 <li> <p>
-徐 静, 叶爱中, <strong>毛玉娜</stong>, 邓斅学, 2014. 水文集合预报研究与应用综述[J]. 南水北调与水利科技, 01.</p> </li>
+徐 静, 叶爱中, <strong>毛玉娜</strong>, 邓斅学, 2014. 水文集合预报研究与应用综述[J]. 南水北调与水利科技, 01.</p> </li>
 
 <li> <p>
 <strong>毛玉娜</strong>，叶爱中，徐静, 2014.辽河流域径流过程模拟的空间尺度效应分析 [J],水文. 34(2):19-24. </p> </li>
