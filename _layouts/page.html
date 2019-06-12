@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-{% include header.html %} 
+
+<!-- comment by yuna 6/12/2019
+{% include header.html %} -->
+
+<!-- add by yuna 6/12/2019 -->
+{% if page.title == "Home" %}
+    {% include header.html %}
+{% endif %}
 
 
 {{content}}
