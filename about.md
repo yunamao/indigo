@@ -2,7 +2,10 @@
 title: About
 layout: page
 ---
-<img src="/assets/images/工作生活家庭.png" style="width:128px;height:128px;">
+<picture>
+ <img src="/assets/images/工作生活家庭1.png" style="width:128px;height:128px;">
+</picture>
+
 
 <!-- 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
