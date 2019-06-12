@@ -12,17 +12,17 @@ layout: page
 2019</p>
 
 <ul>
-	<li> <p align="left"> <strong>Yuna Mao</stong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
+	<li> <p align="left"> <strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Global Flood Inundation Generation Mechanisms and Changes from 1953 to 2004, Journal of Advances in Modeling Earth Systems. (under view)</p> </li>
 	
-	<li> <p> <strong>Yuna Mao</stong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)</p> </li>
+	<li> <p> <strong>Yuna Mao</steong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Assessing the impacts  of flood inundation modelling on characterizing flood events, Geophysical Research Letters. (to be submitted on August, 2019)</p> </li>
 
-	<li> <p><strong>Yuna Mao</stong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)</p> </li>
+	<li> <p><strong>Yuna Mao</strong>, Tian Zhou, Ruby Leung, Teklu Tesfa, Hongyi Li, Kaicun Wang, 2019, Simulation and evaluation of impact of precipitation forcings and DEM on flood inundation, Journal of Hydrometeorology. (to be submitted on September, 2019)</p> </li>
 
 </ul>
 
  <p style="font-weight:bold;" style="color:blue;">2017</p> 
 <ul>	
-	<li> <p> <strong>Yuna Mao</stong> and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: 10.1002/2016JD026065. </p>   </li>
+	<li> <p> <strong>Yuna Mao</strong> and Kaicun Wang, 2017. Comparison of Evapotranspiration Estimates based on the Surface Water Balance, Modified Penman-Monteith Model, and Reanalysis Datasets for continental China, Journal of Geograhphcal Research: Atmospheres,122(6), 3228-3244, doi: 10.1002/2016JD026065. </p>   </li>
 </ul>
 
 <p style="font-weight:bold;" style="color:blue;">
@@ -30,9 +30,9 @@ layout: page
 
 
 <ul>
-    <li> <p><strong>Yuna Mao</stong>, Kaicun Wang, Xiaomang Liu, and Changming Liu, 2016. Water Storage in Reservoirs Built from 1997 to 2014 Significantly Altered the Calculated Evapotranspiration Trends over China[J]. Journal of Geograhphcal Research: Atmosphere, 121(17),10097-10112, doi: 10.1002/2016JD025447.</p> </li>
-    <li> <p> <strong>Yuna Mao</stong>, Aizhong Ye, Xiaojie Liu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di, 2016. High-resolution simulation of the spatial pattern of water use in continental China[J]. Hydrological science journal, 1-13, doi: 10.1080/02626667.2016.1153102.</p> </li>
-<li> <p>陈凯, 罗兆楠, 王小松, <strong>毛玉娜</stong>, 2016. 特高压工程施工利用高分二号遥感影像进行水土保持远程监测研究. 地理信息世界, 23.</p> </li>
+    <li> <p><strong>Yuna Mao</strong>, Kaicun Wang, Xiaomang Liu, and Changming Liu, 2016. Water Storage in Reservoirs Built from 1997 to 2014 Significantly Altered the Calculated Evapotranspiration Trends over China[J]. Journal of Geograhphcal Research: Atmosphere, 121(17),10097-10112, doi: 10.1002/2016JD025447.</p> </li>
+    <li> <p> <strong>Yuna Mao</strong>, Aizhong Ye, Xiaojie Liu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di, 2016. High-resolution simulation of the spatial pattern of water use in continental China[J]. Hydrological science journal, 1-13, doi: 10.1080/02626667.2016.1153102.</p> </li>
+<li> <p>陈凯, 罗兆楠, 王小松, <strong>毛玉娜</strong>, 2016. 特高压工程施工利用高分二号遥感影像进行水土保持远程监测研究. 地理信息世界, 23.</p> </li>
 </ul>
 
 <p style="font-weight:bold;" style="color:blue;">
@@ -40,22 +40,22 @@ layout: page
 
 <ul>
 <li> <p>
-<strong>Yuna Mao</stong>, Aizhong Ye, Jing Xu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di , 2014. An advanced distributed automated extraction of drainage network model on high-resolution DEM[J]. Hydrol. Earth Syst. Sci. Discuss., 11, 7441-7467, doi:10.5194/hessd-11-7441-2014.</p> </li>
+<strong>Yuna Mao</strong>, Aizhong Ye, Jing Xu, Feng Ma, Xiaoxue Deng,Chiyuan Miao, Wei Gong, and Zhenhua Di , 2014. An advanced distributed automated extraction of drainage network model on high-resolution DEM[J]. Hydrol. Earth Syst. Sci. Discuss., 11, 7441-7467, doi:10.5194/hessd-11-7441-2014.</p> </li>
 
 <li> <p>
-Haicheng Zhang, Shuguang Liu, Wenping Yuan, Wenjie Dong, Aizhong Ye, Xianhong Xie, Yang Chen, Dan Liu, Wenwen Cai, and <strong>Yuna Mao</stong>, 2014. Inclusion of soil carbon lateral movement alters terrestrial carbon budget in China.Scientific Reports, 4(10). 1038.</p> </li>
+Haicheng Zhang, Shuguang Liu, Wenping Yuan, Wenjie Dong, Aizhong Ye, Xianhong Xie, Yang Chen, Dan Liu, Wenwen Cai, and <strong>Yuna Mao</strong>, 2014. Inclusion of soil carbon lateral movement alters terrestrial carbon budget in China.Scientific Reports, 4(10). 1038.</p> </li>
 
 <li> <p>
-Feng Ma, Aizhong Ye, Wei Gong, <strong>Yuna Mao</stong>, Chiyuan Miao and Zhenhua Di, 2014. An estimate of human and natural contributions to flood changes of the Huai River. Global and Planetary Change, 119(0): 39-50.</p> </li>
+Feng Ma, Aizhong Ye, Wei Gong, <strong>Yuna Mao</strong>, Chiyuan Miao and Zhenhua Di, 2014. An estimate of human and natural contributions to flood changes of the Huai River. Global and Planetary Change, 119(0): 39-50.</p> </li>
 
 <li> <p>
-Aizhong Ye, Qingyun Duan, Chesheng Zhan, Zhaofei Liu and <strong>Yuna Mao</stong>, 2013. Improving kinematic wave routing scheme in Community Land Model. Hydrology Research, 2013, 44. 886-903.</p> </li>
+Aizhong Ye, Qingyun Duan, Chesheng Zhan, Zhaofei Liu and <strong>Yuna Mao</strong>, 2013. Improving kinematic wave routing scheme in Community Land Model. Hydrology Research, 2013, 44. 886-903.</p> </li>
 
 <li> <p>
-Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <strong>Yuna Mao</stong>, 2013. The impact of the South–North Water Transfer Project (CTP)'s central route on groundwater table in the Hai River basin, North China. Hydrological Processes, 28(23): 5755-5768.</p> </li>
+Aizhong Ye, Qingyun Duan, Wei Chu, Jing Xu and <strong>Yuna Mao</strong>, 2013. The impact of the South–North Water Transfer Project (CTP)'s central route on groundwater table in the Hai River basin, North China. Hydrological Processes, 28(23): 5755-5768.</p> </li>
 
 <li> <p>
-<strong>Yuna Mao</stong>, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Population Distribution of China in 2000[J]. GIScience & Remote Sensing, 49(6), 822–853, doi: 10.2747/1548-1603.49.6.822.</p> </li>
+<strong>Yuna Mao</strong>, Aizhong Ye, and Jing Xu, 2012. Using Land Use Data to Estimate the Population Distribution of China in 2000[J]. GIScience & Remote Sensing, 49(6), 822–853, doi: 10.2747/1548-1603.49.6.822.</p> </li>
 
 <li> <p>
 徐 静, 叶爱中, <strong>毛玉娜</stong>, 邓斅学, 2014. 水文集合预报研究与应用综述[J]. 南水北调与水利科技, 01.</p> </li>
