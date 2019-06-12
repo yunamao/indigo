@@ -20,10 +20,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>教育经历</h2>
 
-<ul type="square"
+<ul type="square">
 	<li>2017.11-至今      访问博士后  美国西北太平洋国家实验室</li>
 	<li>2014.9-2017.7      博士      北京师范大学 全球变化与地球系统科学研究院</li>
-	<li>2011.9-2014.7      硕士      北京师范大学 全球变化与地球系统科学研究院    </li>
+	<li>2011.9-2014.7      硕士      北京师范大学 全球变化与地球系统科学研究院 </li>
 	<li>2007.9-2011.7      本科       聊城大学 环境与规划学院 地理信息系统专业</li>
 </ul>
 
