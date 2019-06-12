@@ -58,7 +58,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>计算机语言</h2>
 
-<p> C，C++，VB，Matlab，Linux bash/csh，Fortran，Html，Python</p>
+<p> 熟练运用C语言，Matlab，Linux bash/csh，熟悉C++，VB，Fortran，Html，Python</p>
 
 <h2>英语水平</h2>
 
