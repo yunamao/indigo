@@ -4,12 +4,12 @@ layout: page
 ---
 
 
-<img src="assets/images/MYLIFE.png" style="width:128px;height:128px;">
+<!-- <img src="assets/images/MYLIFE.png" style="width:128px;height:128px;">-->
 
 
-<!-- 
+
 ![Profile Image]({{ site.url }}/{{ site.picture }})
--->
+
 <!--
 <p style="color:blue;"  style="font-family:Cursive;" style="text-align:center;">热爱工作.</p>
 <p style="color:blue;" style="font-family:Cursive;" style="text-align:center;">热爱家庭.</p>
