@@ -6,12 +6,8 @@ layout: page
 
 <!--<img src="assets/images/MYLIFE.png">-->
  <div class="item">
-        <img src="assets/images/MYLIFE.png" style="width: 100%;">
-		<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017WR020508" target="_blank">
-        <div class="carousel-caption">
-          <p><b>Dam operations reshape hydrologic exchange in Columbia River</b></p>
-        </div>
-		</a>
+        <img src="assets/images/mylift.jpg" style="width: 100%;">
+		
       </div>
 
 
