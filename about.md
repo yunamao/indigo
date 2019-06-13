@@ -5,7 +5,7 @@ layout: page
 
 
 <!--<img src="assets\images\mylife.jpg" />-->
-![200x250](mylife.jpg )
+![](mylife.jpg )
 <img align="right" width="100" height="100" src="mylife.jpg">
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
