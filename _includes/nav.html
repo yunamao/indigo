@@ -1,13 +1,13 @@
-<nav class="{% if page.title == "首页" %}nav-home{% else %}nav{% endif %}">
+<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
-        {% if page.title != "首页" %}
+        {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/"><font size="3" weight="bold" color="indigo">首页</font></a>
             </li>
         {% endif %}
         
           {% if site.publications == true %}
-            {% if page.title != "论文发表" %}
+            {% if page.title != "publications" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/publications"><font size="3" weight="bold" color="indigo">论文发表</font></a>
                 </li>
@@ -16,7 +16,7 @@
         
 
         {% if site.blog == true %}
-            {% if page.title != "科研笔记" %}
+            {% if page.title != "Blog" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/blog"><font size="3" weight="bold" color="indigo">科研笔记</font> </a>
                 </li>
@@ -45,7 +45,7 @@
         
         
         {% if site.about == true %}
-            {% if page.title != "我" %}
+            {% if page.title != "About" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/about"><font size="3" weight="bold" color="indigo">我</font></a>
                 </li>
