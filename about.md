@@ -4,8 +4,8 @@ layout: page
 ---
 
 
-<img src="assets\images\mylife.jpg" />
-
+<!--<img src="assets\images\mylife.jpg" />-->
+![Keywords-Ads-Landing pages flow](mylife.jpg)
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
