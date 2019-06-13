@@ -19,8 +19,13 @@
 
 
 {% if showHeader == true %}
-       
+           <header class="header-home {% if site.animation %}animated{% endif %}">
+
        <a class="link" href="{{ site.url }}/about">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </a>
+              
+       <a class="link" href="{{ site.url }}/blog">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </a>
               
@@ -29,6 +34,7 @@
         <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
+    </header>
 
 {% endif %}
 
