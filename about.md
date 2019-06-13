@@ -4,8 +4,8 @@ layout: page
 ---
 
 
-<!--<img src="assets/images/MYLIFE.png">-->
-
+<img src="assets\images\MYLIFE.png">
+<!--
  <div class="carousel-inner" role="listbox">
   <div class="item">
         <img src="assets/images/mylife.jpg" style="width: 50%;">
@@ -16,7 +16,7 @@ layout: page
 		</a>
     </div>
    </div>
-
+-->
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
