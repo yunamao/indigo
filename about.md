@@ -5,18 +5,7 @@ layout: page
 
 
 <img src="assets\images\MYLIFE.png">
-<!--
- <div class="carousel-inner" role="listbox">
-  <div class="item">
-        <img src="assets/images/mylife.jpg" style="width: 50%;">
-		<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.13150" target="_blank">
-        <div class="carousel-caption">
-          <p><b>Simulate snow with canopy gap </p></b>
-        </div>
-		</a>
-    </div>
-   </div>
--->
+
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
