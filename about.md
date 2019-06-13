@@ -5,8 +5,9 @@ layout: page
 
 
 <!--<img src="assets\images\mylife.jpg" />-->
-![](mylife.jpg )
+![](mylife.jpg)
 <img align="right" width="100" height="100" src="mylife.jpg">
+<a href="mylife.jpg"><img src="mylife.jpg" alt=""></a>
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
