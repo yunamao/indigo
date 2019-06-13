@@ -1,4 +1,4 @@
-<!--{% if page.title == "首页" %}{% assign showHeader = true %}{% endif %}-->
+{% if page.title == "Home" %}{% assign showHeader = true %}{% endif %}
 
  <!--added: new minimal header-->
 {% if page.title == "Blog" 
@@ -17,7 +17,7 @@
 %}{% assign showHeader = true %}{% endif %}
 -->
 
-<!--commented out by yuna 6/12/2019
+
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
@@ -38,7 +38,7 @@
         {% include social-links.html %}
     </header>
 {% endif %}
--->
+
 <!-- added: new minimal header-->
 
 {% if showMinHeader == true %}
