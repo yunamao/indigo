@@ -6,7 +6,6 @@ layout: page
 
 <!--<img src="assets\images\mylife.jpg" />-->
 ![](mylife.jpg)
-<a href="mylife.jpg"><img src="mylife.jpg" alt=""></a>
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
