@@ -5,10 +5,10 @@ layout: page
 
 
 <!--<img src="assets/images/MYLIFE.png">-->
- <div class="item">
-        <img src="assets/images/mylift.jpg" style="width: 100%;">
+
+<img src="assets/images/mylift.jpg" style="width: 100%;">
 		
-      </div>
+
 
 
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
