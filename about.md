@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<img src="assets\images\MYLIFE.png">
+<img src="assets\images\MYLIFE.png"/>
 
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
