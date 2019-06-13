@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<img src="assets/images/MYLIFE.png" style="width:128px;height:128px;">
+<img src="assets/images/MYLIFE.png">
 
 
 
