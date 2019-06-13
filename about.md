@@ -6,7 +6,7 @@ layout: page
 
 <!--<img src="assets/images/MYLIFE.png">-->
 
-<img src="assets/images/mylife.jpg" style="width: 100%;">
+<img src="assets/images/mylife.jpg" style="width: 20%;">
 		
 
 
