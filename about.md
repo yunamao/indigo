@@ -5,7 +5,7 @@ layout: page
 
 
 <!--<img src="assets\images\mylife.jpg" />-->
-![Keywords-Ads-Landing pages flow](mylife.jpg)
+![Keywords-Ads-Landing pages flow](mylife.jpg=250x250)
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
