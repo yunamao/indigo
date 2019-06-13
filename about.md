@@ -6,6 +6,8 @@ layout: page
 
 <!--<img src="assets\images\mylife.jpg" />-->
 ![](mylife.jpg)
+<img src="mylife.jpg" width="200">
+
 <!--![Profile Image]({{ site.url }}/{{ site.picture }})-->
 
 
