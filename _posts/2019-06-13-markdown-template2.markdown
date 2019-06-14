@@ -2,12 +2,8 @@
 title: "Markdown Template2"
 layout: post
 date: 2019-06-13 
-tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+image: /assets/images/markdown.jpg
 headerImage: true
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 category: blog
 author: yunamao
 externalLink: false
