@@ -55,12 +55,12 @@ github: yunamao
 email: mynmaoyuna@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    yunamao:
+        name: Yuna Mao
+        bio: Love life
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
+        picture: assets/images/mylife.jpg
+        twitter: yunamao
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
