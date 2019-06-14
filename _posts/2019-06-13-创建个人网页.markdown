@@ -1,0 +1,37 @@
+---
+title: "创建个人网页"
+layout: post
+date: 2019-06-13 18：37
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: true
+category: blog
+author: johndoe
+description: 操作流程
+---
+
+## 第一步：创建Github账号和创建个人网站
+
+具体流程可以参考[Github网址](https://pages.github.com/)。
+
+
+
+## 第二步：选择网站Theme（Jekyll theme）
+
+Jekyll theme [网址](http://jekyllthemes.org/)，fork感兴趣的theme repository到自己github下，进而进行编辑成自己需要的网站内容。
+
+## 第三步：编辑repository
+
+###(1)添加一个“论文发表”标签：
+1.首先_config.yml配置文件中加入publications:true。
+2.其次_includes/nav.html文件定义publications标签。
+3.创建publications.md文件，显示这一网页内容。
+###（2）修改某个标签下内容
+只要修改对应的md文件即可。
+###（3）在“科研笔记”下发表新文件
+在_posts文件下添加markdown文件。
+
+
