@@ -30,6 +30,6 @@ Jekyll theme [网址](http://jekyllthemes.org/)，fork感兴趣的theme reposito
 - 修改某个标签下内容
 只要修改对应的md文件即可。
 - 在“科研笔记”下发表新文件
-在_posts文件下添加markdown文件。
+在_posts文件下添加markdown文件，markdown文件可以用桌面安装的MarkdownPad 2 编辑。
 
 
