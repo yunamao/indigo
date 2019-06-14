@@ -4,12 +4,8 @@ layout: post
 date: 2019-06-13 18：37
 image: /assets/images/markdown.jpg
 headerImage: false
-tag:
-- markdown
-- elements
-star: true
 category: blog
-author: johndoe
+author: yunamao
 description: 操作流程
 ---
 
