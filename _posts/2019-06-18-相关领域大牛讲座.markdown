@@ -8,22 +8,23 @@ category: blog
 author: yunamao
 description: 讲座网站
 ---
-### 博士导师：王开存
+### (1)博士导师：王开存
 
 1.全球变暖与干旱无直接关系,2014:[链接](http://blog.sciencenet.cn/blog-1208826-800311.html)
 2.拿出中国自己的气候数据，2018：[链接](http://edu.sina.com.cn/l/2018-03-28/doc-ifysqfnh7705613.shtml)
 
 
-### 博后导师：Ruby Leung
+### (2)博后导师：Ruby Leung
 
 1. Quantifying uncertainties in Hydrologic Parameter in the Community Land Model,25min，2012:[链接](https://www.pathlms.com/siam/courses/2716/sections/3522/video_presentations/28942)
 2. On representing hydrologic processes and their interactions in earth system models,47min,2015:[链接](https://www.youtube.com/watch?v=KxksJsigJC4) 
 3. Climate “Extremes” – Extreme Heat & Droughts，2018,7min:[链接](https://www.youtube.com/watch?v=qcW0ch7eeo0)
 
-### 水文大牛Dennis P. Lettenmaier
+### (3)水文大牛Dennis P. Lettenmaier
 
 1.The evolution of hydrology in an interdisciplinary earth science setting，22min,2004:[链接](https://slideplayer.com/slide/8821151/)
 2.VIC Land surface model overview - ppt video online download，6min,2007:[链接](https://slideplayer.com/slide/8442268/)
 
-#### 审稿意见回复：[链接](http://blog.sciencenet.cn/blog-71964-1080579.html)
+其他：
+#### （1）审稿意见回复：[链接](http://blog.sciencenet.cn/blog-71964-1080579.html)
 
