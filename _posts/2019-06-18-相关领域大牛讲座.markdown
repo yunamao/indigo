@@ -1,7 +1,7 @@
 ---
 title: "相关领域大牛讲座"
 layout: post
-date: 2019-06-13 18：37
+date: 2019-06-18 18:30
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
