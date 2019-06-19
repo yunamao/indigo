@@ -16,8 +16,8 @@ description: 讲座网站
 
 ### (2)博后导师：Ruby Leung
 
-1. Quantifying uncertainties in Hydrologic Parameter in the Community Land Model,25min，2012:[链接](https://www.pathlms.com/siam/courses/2716/sections/3522/video_presentations/28942)
-2. On representing hydrologic processes and their interactions in earth system models,47min,2015:[链接](https://www.youtube.com/watch?v=KxksJsigJC4) 
+1.Quantifying uncertainties in Hydrologic Parameter in the Community Land Model,25min，2012:[链接]  (https://www.pathlms.com/siam/courses/2716/sections/3522/video_presentations/28942)
+2.On representing hydrologic processes and their interactions in earth system models,47min,2015:[链接](https://www.youtube.com/watch?v=KxksJsigJC4) 
 3. Climate “Extremes” – Extreme Heat & Droughts，2018,7min:[链接](https://www.youtube.com/watch?v=qcW0ch7eeo0)
 
 ### (3)水文大牛：Dennis P. Lettenmaier
