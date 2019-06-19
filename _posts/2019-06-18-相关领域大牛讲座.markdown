@@ -20,7 +20,7 @@ description: 讲座网站
 2. On representing hydrologic processes and their interactions in earth system models,47min,2015:[链接](https://www.youtube.com/watch?v=KxksJsigJC4) 
 3. Climate “Extremes” – Extreme Heat & Droughts，2018,7min:[链接](https://www.youtube.com/watch?v=qcW0ch7eeo0)
 
-### (3)水文大牛Dennis P. Lettenmaier
+### (3)水文大牛:Dennis P. Lettenmaier
 
 1.The evolution of hydrology in an interdisciplinary earth science setting，22min,2004:[链接](https://slideplayer.com/slide/8821151/)
 2.VIC Land surface model overview - ppt video online download，6min,2007:[链接](https://slideplayer.com/slide/8442268/)
