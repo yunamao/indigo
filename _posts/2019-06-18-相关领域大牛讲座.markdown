@@ -10,7 +10,7 @@ description: 讲座网站
 ---
 ### (1)博士导师：王开存
 
-1.全球变暖与干旱无直接关系,2014:[链接](http://blog.sciencenet.cn/blog-1208826-800311.html)  (<-- two spaces)
+1.全球变暖与干旱无直接关系,2014:[链接](http://blog.sciencenet.cn/blog-1208826-800311.html)  <br>
 2.拿出中国自己的气候数据，2018：[链接](http://edu.sina.com.cn/l/2018-03-28/doc-ifysqfnh7705613.shtml)
 
 
