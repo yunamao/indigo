@@ -1,0 +1,22 @@
+---
+title: "matlab"
+layout: post
+date: 2019-06-21 12：07
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+
+- GRDC data 下载：[链接](http://www.grdc.sr.unh.edu/html/Data/index.html) <br>
+- National wetlands data in U.S.:[链接](https://www.fws.gov/wetlands/Data/Data-Download.html) <br>
+- GIEMS数据：[链接](https://lerma.obspm.fr/spip.php?article91&lang=en) <br>
+- A Simple Global River Bankfull Width & Depth Database:[链接](http://gaia.geosci.unc.edu/rivers/) <br>
+- Global Flood Monitoring System (GFMS):[链接](http://flood.umd.edu/)
+- CaMa-FLOOD:[链接](http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/index.html) <br>
+- Colormap: <br>
+  1.colorbrewer:[链接](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=9) <br>
+  2.cpt-city:[链接](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) <br>
+
