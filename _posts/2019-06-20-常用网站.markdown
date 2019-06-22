@@ -1,0 +1,24 @@
+---
+title: "matlab"
+layout: post
+date: 2019-06-20 16：27
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+### 1. 自定义legend：
+例如用circular statistical tool画flood seasonality时，有很多点线，就可以自己定义legend来表示想表达的内容。<br>
+Code example:<br>
+
+subplot(2,2,4) <br>
+h = zeros(6, 1);<br>
+h(1) = plot(NaN,NaN,'ro'); <br>
+h(2) = plot(NaN,NaN,'bo'); <br>
+h(3) = plot(NaN,NaN,'go'); <br>
+h(4) = plot(NaN,NaN,'-r'); <br>
+
+legendinfo={'Timing of Annual Maximum Flood Extent','Timing of Annual Maximum Runoff Prior to Inundation','Timing of Annual Maximum Streamflow Routed After Inundation','xxx'}
+lgd=columnlegend(2,cellstr(legendinfo),'location','southeast' );<br>
