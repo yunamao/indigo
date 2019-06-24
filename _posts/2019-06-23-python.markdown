@@ -10,99 +10,11 @@ description: 操作流程
 ---
 
 1.**notebook安装**： 利用[Anaconda](https://www.anaconda.com/distribution/)下载,下载完毕后，如遇到“Kernel error”问题需要重装kernel<br>
-重装命令：python -m ipykernel install --user.
-2.**python环境下nc文件读取与画图需安装以下package**
+重装命令：python -m ipykernel install --user.<br>
+
+2.**python环境下nc文件读取与画图需安装以下package**<br>
 1)安装netcdf4包，命令：conda install netcdf4 <br>
 2)安装basemap,命令：conda install basemap <br>
 3)安装xarray,命令：conda install xarray dask netCDF4 bottleneck <br>
 安装完毕后，可以在Anaconda prompt下直接利用ncdump -h 查看nc文件，
 对于Xarray应用：[链接]（https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f）
-
-
-
-**DataArray**
-xarray.DataArray is an implementation of a labelled, multi-dimensional array for a single variable, such as precipitation, temperature etc.. It has the following key properties:
-
-values: a numpy.ndarray holding the array’s values
-dims: dimension names for each axis (e.g., ('lat', 'lon', 'z', 'time'))
-coords: a dict-like container of arrays (coordinates) that label each point (e.g., 1-dim arrays of numbers, DateTime objects, or strings)
-attrs: an OrderedDict to hold arbitrary metadata (attributes)
-DataSet
-xarray.DataSet is a collection of DataArrays. Each NetCDF file contains a DataSet.
-
-Coding using XArray
-Data Import
-You cannot play with the data until you read it. Use open_dataset or open_mfdataset to read a single or multiple NetCDF files, and store it in a DataSet called DS.
-
-import xarray as xr
-# single file
-dataDIR = '../data/ARM/twparmbeatmC1.c1.20050101.000000.cdf'
-DS = xr.open_dataset(dataDIR)
-# OR multiple files
-mfdataDIR = '../data/ARM/twparmbeatmC1.c1.*.000000.cdf'<br>
-DS = xr.open_mfdataset(mfdataDIR) <br>
-
-Data Inspection<br>
-
-Remember the 4 key properties of DataArrays? You can useDS.values, DS.var, DS.dims, DS.coords, and DS.attrs for data inspection. This will become very handy in interactive Python. Their functionalities are quite obvious and are left as an exercise to the reader(!).
-
-DataArray Extraction<br>
-
-Extracting DataArrays from DataSet DS is very straightforward, as DS.<var_name> will suffice. You might consider dropping NaN entries by dropna() and selecting data with sel(). The method parameter in sel() allows us to enable the nearest neighbour (inexact) lookups by use of the methods 'pad', 'backfill', or 'nearest'. To specify a range, use slice().
-
-You can transform xr.DataArray to numpy.ndarray by da.values.
-
-# Extract Dry Bulb Temperature in z-coordinate (T_z)
-# Select the altitude nearest to 500m above surface
-# Drop NaN, convert to Celcius
-da = DS.T_z.sel(z=500,method='nearest').dropna(dim='time') - 273.15  # or .ffill(dim='time')
-# Select data in 2000s
-da = da.sel(time=slice('2000-01-01', '2009-12-31'))
-da_numpy = da.values
-It is a convention to name DataSet as DS in upper case and DataArray as da in lower case.
-
-DateTime Operation
-Assume DataArray da has a dimension timein DateTime format, We can extract the year/month/day/dayofyear/dayofweek by da.time.dt.<year/month/day/...>. Note that the output is still in DataArray.
-
-The following example takes one step further and tries to compute the mean/sum of any variable for each month. We first define a new coordinate system with assign_coords(). Why? Try looking into how year and month performs in DateTime. If we need the system to be aware of the differences between January 2000 and January 2001, we need both year and month to define a new coordinate, which we call it year_month.
-
-We can then group data by groupby('year_month') based on our newly defined coordinate system, followed by mean()or sum() operations.
-
-# Contract the DataArray by taking mean for each Year-Month
-def mean_in_year_month(da):<br>
-    # Index of Year-Month starts at Jan 1991<br>
-    month_cnt_1991 = (da.time.dt.year.to_index() - 1991) * 12 + da.time.dt.month.to_index()<br>
-    # Assign newly defined Year-Month to coordinates, then group by it, then take the mean<br>
-    return da.assign_coords(year_month = month_cnt_1991).groupby<br>('year_month').mean()<br>
-da_1 = mean_in_year_month(da1)<br>
-
-DataArray Merging<br>
-We can merge multiple DataArrays using xr.merge(). If you attempt to merge two variables with the same name but with different values, xr.MergeError will be raised. This ensures xr.merge()is non-destructive.
-
-DS_new = xr.merge([da_1,da_2,da_3]).dropna(dim='year_month')<br>
-
-Plotting<br>
-You can simply take DataArrays as arguments of matplotlib.pyplot methods. For absolute beginners, try plt.plot(), or plt.scatter() for line or scatter plots. Remember to show figures by plt.show(), or save figures by plt.savefig().
-
-If you need maps, cartopy library can generate one easily.
-
-import cartopy.crs as ccrs<br>
-import matplotlib.pyplot as plt<br>
-da = DS.t_sfc<br>
-# Draw coastlines of the Earth
-ax = plt.axes(projection=ccrs.PlateCarree())<br>
-ax.coastlines() <br>
-da.plot()<br>
-plt.show()<br>
-With a few extra lines of codes, you can generate something like this:
-
-
-Plots generated by cartopy<br>
-Data Export <br>
-You can convert DataArray to numpy.ndarray as explained earlier, or convert DataSet or DataArray to pandas.DataFrame as illustrated below.
-
-df = DS.to_dataframe()
-You can also export DataArray or DataSet to NetCDF file by
-
-dataDIR = '../data/new.nc'
-DS.to_netcdf(dataDIR)
