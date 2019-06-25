@@ -17,4 +17,4 @@ description: 操作流程
 2)安装basemap,命令：conda install basemap <br>
 3)安装xarray,命令：conda install xarray dask netCDF4 bottleneck <br>
 安装完毕后，可以在Anaconda prompt下直接利用ncdump -h 查看nc文件，
-对于Xarray应用：[链接]（https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f）
+对于Xarray应用：[链接](https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f)
