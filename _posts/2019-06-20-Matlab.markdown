@@ -1,5 +1,5 @@
 ---
-title: "matlab"
+title: "Matlab"
 layout: post
 date: 2019-06-20 16：27
 image: /assets/images/markdown.jpg
