@@ -1,7 +1,7 @@
 ---
 title: "Arcgis"
 layout: post
-date: 2019-06-251 10：20
+date: 2019-06-25 10：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -10,5 +10,5 @@ description: 操作流程
 ---
 
 
-- 编辑colormap中min/max值:
+- 编辑colormap中min/max值: <br>
 选择最大/最小值拉伸（Minimum/Maximum Stretch）， “edit High/low Values”被激活。
