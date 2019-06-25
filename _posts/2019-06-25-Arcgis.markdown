@@ -11,5 +11,4 @@ description: 操作流程
 
 
 - 编辑colormap中min/max值:
-image: /assets/images/arcgis-min-max.jpg
 选择最大/最小值拉伸（Minimum/Maximum Stretch）， “edit High/low Values”被激活。
