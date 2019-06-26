@@ -15,6 +15,8 @@ description: 操作流程
 2) git clone --recursive -b add-wm-inundation<br>
 ### git clone E3SM时遇到的问题 <br>
 
-- 首先用便捷http方法,git clone --recursive -b tizhou/mosart/add-wm-inundation https://github.com/yunamao/E3SM.git,发现clone完毕后不能 submodule update --ini; <br>
+- 首先用便捷http方法,git clone --recursive -b tizhou/mosart/add-wm-inundation https://github.com/yunamao/E3SM.git,发现clone完毕后不能 submodule update --ini,显示permission denied,需要configure,命令如下:<br>
+(1)git config --global user.name "yunamao" ; <br>
+(2)git config --global user.email  <br>
  
 - 接着选择ssh方法，git clone --recursive -b tizhou/mosart/add-wm-inundation git@github.com:yunamao/E3SM.git。 首先创建ssh key,可参照[链接](https://gist.github.com/adamjohnson/5682757)，若在linux和window环境下分别下载需要两个环境下都创建，创建完毕后检查id-rsa 和rd-rsa.pub是否存在,然后复制rd-rsa.pub文件中的key（注意exactly as it appears, with no extra spaces or lines）到Gitsub网站下Account Settings > SSH Keys。然后就可以（1）git clone --recursive -b tizhou/mosart/add-wm-inundation git@github.com:yunamao/E3SM.git.（2） git submodule update --ini. <br> clone完毕！
