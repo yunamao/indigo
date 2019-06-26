@@ -10,10 +10,10 @@ description: 操作流程
 ---
 
 
-###git clone branch的两种方法：
+### git clone branch的两种方法：<br>
  1）git clone https://github.com/yunamao/E3SM.git, 默认是master，需要git checkout -b add-wm-inundation. <br>
 2) git clone --recursive -b add-wm-inundation<br>
-###git clone E3SM时遇到的问题 <br>
+### git clone E3SM时遇到的问题 <br>
 
 - 首先用便捷http方法,git clone --recursive -b tizhou/mosart/add-wm-inundation https://github.com/yunamao/E3SM.git,发现clone完毕后不能 submodule update --ini; <br>
  
