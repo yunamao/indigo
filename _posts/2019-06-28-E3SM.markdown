@@ -1,0 +1,22 @@
+
+---
+title: "E3SM"
+layout: post
+date: 2019-06-26 11：20
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+## creating a compset
+- You may follow the changes in this commit
+https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
+this was the commit Tony did when he added RM compset
+now with current master branch, some files has changed so I wasn't able to make RM and GLB05RM work
+
+-what you can do it to check the working version from add-inundation branch with RM and GLB05RM
+
+-check the files that were modified based on Tony's commit
+then translate the changes to current master
