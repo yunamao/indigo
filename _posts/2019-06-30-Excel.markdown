@@ -1,0 +1,13 @@
+---
+title: "Excel"
+layout: post
+date: 2019-06-30 18：59
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+### Excel的两个表格按照某一列数据进行匹配： VLOOKUP函数，具体参考
+[链接](https://blog.csdn.net/laobai1015/article/details/85248125)
