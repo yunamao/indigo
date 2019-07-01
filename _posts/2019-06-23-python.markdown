@@ -9,21 +9,20 @@ author: yunamao
 description: 操作流程
 ---
 
-1.**notebook安装**： 利用[Anaconda](https://www.anaconda.com/distribution/)下载,下载完毕后，如遇到“Kernel error”问题需要重装kernel<br>
+1.<strong> notebook安装</strong>： 利用[Anaconda](https://www.anaconda.com/distribution/)下载,下载完毕后，如遇到“Kernel error”问题需要重装kernel<br>
 重装命令：python -m ipykernel install --user.<br>
 
-2.**python环境下nc文件读取与画图需安装以下package**<br>
+2.<strong> python环境下nc文件读取与画图需安装以下package</strong><br>
 1)安装netcdf4包，命令：conda install netcdf4 <br>
 2)安装basemap,命令：conda install basemap <br>
 3)安装xarray,命令：conda install xarray dask netCDF4 bottleneck <br>
 安装完毕后，可以在Anaconda prompt下直接利用ncdump -h 查看nc文件，
 对于Xarray应用：[链接](https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f)
 
-3.**打印一个文件夹中所有文件的名字** <br>
-<strong> example </strong> <br>
+3.<strong> 打印一个文件夹中所有文件的名字</strong> <br>
+<strong> Example: </strong> <br>
 import os <br>
 #path='C:/postdoc work/Postdoc work/Postdoc work/data/GRDC_data' <br>
-
 a = open("output.txt", "w")<br>
 for path, subdirs, files in os.walk(r'C:/postdoc work/Postdoc work/Postdoc work/data/GRDC_data'):<br>
    for filename in files:<br><br>
