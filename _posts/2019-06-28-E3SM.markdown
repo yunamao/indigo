@@ -1,7 +1,7 @@
 ---
 title: "E3SM"
 layout: post
-date: 2019-06-26 11：20
+date: 2019-07-04 11：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -22,3 +22,24 @@ now with current master branch, some files has changed so I wasn't able to make 
 
 -check the files that were modified based on Tony's commit
 then translate the changes to current master
+
+## generate new land initial file
+<strong>Problem:</strong> when running E3SM, came into this problem shown in e3sm.log file: <br>
+pio_support::pio_die:: myrank=          -1 : ERROR: nf_mod.F90:        1288 : <br>
+ NetCDF: Invalid dimension ID or name’<br>
+ 
+<strong>Solution:</strong> generate new land initial file
+ 
+The new land initial file can be generated using “interpinic” tool available in components/clm/tools/clm4_5/interpinic. You have to do the following:<br>
+
+- First, run the case for a short duration (say 1 day) without using an initial condition by setting the following in user_nl_clm:
+finidat = ‘’ <br>
+
+The above step would generate a *.clm2.r.*.nc <br>
+
+- Now use the interpinic tool to remap your old initial condition (alm45_mosart_bgc_crop_noirr_new_spinup_final_v2.clm2.r.2156-01-01-00000.nc) onto the newly created *.clm2.r.*.nc in step-1 via running the following on the compute node:<br>
+
+./interpinic -i <path-to-old-initial-condition> -o <path-to-new-restart-file><br>
+
+Some notes from NCAR on how to compile interpinic and other related topic are available at <br> http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x11704.html<br>
+
