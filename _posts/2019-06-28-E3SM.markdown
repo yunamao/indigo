@@ -12,7 +12,7 @@ description: 操作流程
 ##### 模式学习可以参考 CESM tutorial: 
 [链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
 
-## creating a compset
+## <strong>creating a compset</strong>
 - You may follow the changes in this commit
 https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
 this was the commit Tony did when he added RM compset
@@ -23,7 +23,7 @@ now with current master branch, some files has changed so I wasn't able to make 
 -check the files that were modified based on Tony's commit
 then translate the changes to current master
 
-## generate new land initial file
+## <strong>generate new land initial file</strong>
 <strong>Problem:</strong> when running E3SM, came into this problem shown in e3sm.log file: <br>
 pio_support::pio_die:: myrank=          -1 : ERROR: nf_mod.F90:        1288 : <br>
  NetCDF: Invalid dimension ID or name’<br>
