@@ -9,6 +9,9 @@ author: yunamao
 description: 操作流程
 ---
 
+##### 模式学习可以参考 CESM tutorial: 
+[链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
+
 ## creating a compset
 - You may follow the changes in this commit
 https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
