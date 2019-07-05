@@ -12,6 +12,18 @@ description: 操作流程
 ##### 模式学习可以参考 CESM tutorial: 
 [链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
 
+##  <strong>1.Compiler and libraties：</strong>
+<strong>Question:</strong>how to load the proper compiler for specific tool. Take ncview for example,  both pgi and intel can make ncview work. 
+<strong>Response:</strong>
+Usually the libraries (such as netcdf, hdf5, etc) are compiled with multiple compilers (such as pgi, intel, gnu). So, load the module for the compiler first and then load other relevant libraries.  <br>
+
+Some clusters (such as NERSC) automatically load correct version of libraries when you swap compiler module (i.e. if you loaded pgi,<br>
+ then loaded netcdf, you should get netcdf lib compiled with pgi. Now, if you swap pgi with intel, the netcdf library should also be<br>
+ automatically swapped so that you get netcdf with intel).<br>
+
+Bottom line is: the library you are using should be compatible with compiler you are using.<br>
+
+
 ## <strong>1. creating a compset</strong>
 - You may follow the changes in this commit
 https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
