@@ -1,0 +1,33 @@
+---
+title: "Linux"
+layout: post
+date: 2019-07-03 18:28
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+### 1. export, set和setenv区别：
+
+ export, set and setenv commands are used in UNIX for setting value of a variable or an environment variable.<br>
+
+1. export command is used to for bash shell to export a variable or function to the environment of all the child processes running in the current shell.
+
+2. set and setenv are the c-shell/tc-shell alternatives for setting a local <br>
+ variable and environment variable respectively. The set command is used for setting<br>  local variable, setenv is uesd for setting an environment variable.<br> 
+<strong>Example:</strong>
+ 
+#set  FILE=”output.txt”<br> 
+#echo $FILE<br> 
+output.txt<br> 
+#tcsh<br> 
+#echo $FILE<br> 
+
+#setenv  FILE ”output.txt”<br> 
+#echo $FILE<br> 
+output.txt<br> 
+#tcsh<br> 
+#echo $FILE<br> 
+output.txt<br> 
