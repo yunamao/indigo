@@ -12,7 +12,7 @@ description: 操作流程
 ##### 模式学习可以参考 CESM tutorial: 
 [链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
 
-## <strong>creating a compset</strong>
+## <strong>1. creating a compset</strong>
 - You may follow the changes in this commit
 https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
 this was the commit Tony did when he added RM compset
@@ -23,7 +23,7 @@ now with current master branch, some files has changed so I wasn't able to make 
 -check the files that were modified based on Tony's commit
 then translate the changes to current master
 
-## <strong>generate new land initial file</strong>
+## <strong>2. generate new land initial file</strong>
 <strong>Problem:</strong> when running E3SM, came into this problem shown in e3sm.log file: <br>
 pio_support::pio_die:: myrank=          -1 : ERROR: nf_mod.F90:        1288 : <br>
  NetCDF: Invalid dimension ID or name’<br>
@@ -35,9 +35,16 @@ The new land initial file can be generated using “interpinic” tool available
 - First, run the case for a short duration (say 1 day) without using an initial condition by setting the following in user_nl_clm:
 finidat = ‘’ <br>
 
-The above step would generate a *.clm2.r.*.nc <br>
+The above step would generate a *.clm2.r.*.nc (located in /scratch/run)<br>
 
 - Now use the interpinic tool to remap your old initial condition (alm45_mosart_bgc_crop_noirr_new_spinup_final_v2.clm2.r.2156-01-01-00000.nc) onto the newly created *.clm2.r.*.nc in step-1 via running the following on the compute node:<br>
+
+cd /pic/projects/climate/maoy573/E3SM/components/clm/tools/clm4_5/interpinic<br>
+module list:<br>
+Currently Loaded Modulefiles:<br>
+  1) intel/15.0.1(default) 2) mkl/15.0.1 3) mvapich2/2.1  4) cmake/2.8.12(default)  5) python/2.7.8     7) netcdf/4.3.2(default)<br>
+setenv INC_NETCDF /share/apps/netcdf/4.3.2/intel/15.0.1/include<br>
+setenv LIB_NETCDF /share/apps/netcdf/4.3.2/intel/15.0.1/lib<br>
 
 ./interpinic -i <path-to-old-initial-condition> -o <path-to-new-restart-file><br>
 
