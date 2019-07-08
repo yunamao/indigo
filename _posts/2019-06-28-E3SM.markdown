@@ -12,7 +12,7 @@ description: 操作流程
 ##### 模式学习可以参考 CESM tutorial: 
 [链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
 
-##  <strong>1.Compiler and libraties：</strong>
+##  <strong>1.Compiler and libraries：</strong>
 <strong>Question:</strong>how to load the proper compiler for specific tool. Take ncview for example,  both pgi and intel can make ncview work. 
 <strong>Response:</strong>
 Usually the libraries (such as netcdf, hdf5, etc) are compiled with multiple compilers (such as pgi, intel, gnu). So, load the module for the compiler first and then load other relevant libraries.  <br>
