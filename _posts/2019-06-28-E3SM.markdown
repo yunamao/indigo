@@ -26,7 +26,7 @@ Bottom line is: the library you are using should be compatible with compiler you
 
 ## <strong>1. creating a compset</strong>
 - You may follow the changes in this commit
-https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2 
+[链接](https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2)
 this was the commit Tony did when he added RM compset
 now with current master branch, some files has changed so I wasn't able to make RM and GLB05RM work
 
