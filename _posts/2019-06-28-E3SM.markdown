@@ -1,7 +1,7 @@
 ---
 title: "E3SM"
 layout: post
-date: 2019-07-04 11：20
+date: 2019-07-09 11：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -13,29 +13,27 @@ description: 操作流程
 [链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
 
 ##  <strong>1.Compiler and libraries：</strong>
-<strong>Question:</strong>how to load the proper compiler for specific tool. Take ncview for example,  both pgi and intel can make ncview work. 
+<strong>Question:</strong>how to load the proper compiler for specific tool. Take ncview for example,  both pgi and intel can make ncview work. <br>
 <strong>Response:</strong>
 Usually the libraries (such as netcdf, hdf5, etc) are compiled with multiple compilers (such as pgi, intel, gnu). So, load the module for the compiler first and then load other relevant libraries.  <br>
 
-Some clusters (such as NERSC) automatically load correct version of libraries when you swap compiler module (i.e. if you loaded pgi,<br>
- then loaded netcdf, you should get netcdf lib compiled with pgi. Now, if you swap pgi with intel, the netcdf library should also be<br>
+Some clusters (such as NERSC) automatically load correct version of libraries when you swap compiler module (i.e. if you loaded pgi,
+ then loaded netcdf, you should get netcdf lib compiled with pgi. Now, if you swap pgi with intel, the netcdf library should also be
  automatically swapped so that you get netcdf with intel).<br>
 
 Bottom line is: the library you are using should be compatible with compiler you are using.<br>
 
 
-## <strong>1. creating a compset</strong>
+## <strong>2. creating a compset</strong>
 - You may follow the changes in this commit
-[链接](https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2)
-this was the commit Tony did when he added RM compset
-now with current master branch, some files has changed so I wasn't able to make RM and GLB05RM work
+[链接](https://github.com/hydrotian/ACME/commit/26e5516fef8d1b1db7f0d08c87fdbe016ee2f2d2).
+this was the commit Tony did when he added RM compset.
 
--what you can do it to check the working version from add-inundation branch with RM and GLB05RM
-
--check the files that were modified based on Tony's commit
+- what you can do it to check the working version from add-inundation branch with RM and GLB05RM
+- check the files that were modified based on Tony's commit
 then translate the changes to current master
 
-## <strong>2. generate new land initial file</strong>
+## <strong>3. generate new land initial file</strong>
 <strong>Problem:</strong> when running E3SM, came into this problem shown in e3sm.log file: <br>
 pio_support::pio_die:: myrank=          -1 : ERROR: nf_mod.F90:        1288 : <br>
  NetCDF: Invalid dimension ID or name’<br>
