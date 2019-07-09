@@ -32,7 +32,7 @@ this was the commit Tony did when he added RM compset.
 - what you can do it to check the working version from add-inundation branch with RM and GLB05RM
 - check the files that were modified based on Tony's commit
 then translate the changes to current master
-
+- also can refer to CESM[链接](http://www.cesm.ucar.edu/models/cesm1.2/cesm/doc/usersguide/c513.html)
 ## <strong>3. generate new land initial file</strong>
 <strong>Problem:</strong> when running E3SM, came into this problem shown in e3sm.log file: <br>
 pio_support::pio_die:: myrank=          -1 : ERROR: nf_mod.F90:        1288 : <br>
