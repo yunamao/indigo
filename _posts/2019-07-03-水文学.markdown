@@ -9,7 +9,14 @@ author: yunamao
 description: 操作流程
 ---
 
-### 1. 清华大学水文学原理与应用视频：杨大文，张思聪主讲
-[链接](https://www.openke.net/show.php?id=102)
-### 2. 各种公开课:username: yunamao
+### 1. 各种公开课:username: yunamao
 [链接](https://www.openke.net/show.php?id=412)
+
+### 2. 清华大学水文学原理与应用视频：杨大文，张思聪主讲
+[链接](https://www.openke.net/show.php?id=102)
+
+### 3.中科院水文学与水资源学基础：于静洁，宋献方主讲
+[链接](https://www.openke.net/show.php?id=2669)
+
+### 4.西北工业大学概率论与数理统计：师义民主讲
+[链接](https://www.openke.net/show.php?id=22)
