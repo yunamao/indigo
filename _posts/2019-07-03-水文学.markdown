@@ -20,3 +20,6 @@ description: 操作流程
 
 ### 4.西北工业大学概率论与数理统计：师义民主讲
 [链接](https://www.openke.net/show.php?id=22)
+
+### 5.武汉大学地理信息系统原理：游涟，程雄主讲
+[链接](https://www.openke.net/show.php?id=1634)
