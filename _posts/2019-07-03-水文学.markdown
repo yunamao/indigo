@@ -23,3 +23,6 @@ description: 操作流程
 
 ### 5.武汉大学地理信息系统原理：游涟，程雄主讲
 [链接](https://www.openke.net/show.php?id=1634)
+
+### 6.武汉大学遥感原理与应用：潘励 周军其主讲
+[链接](https://www.openke.net/show.php?id=1609)
