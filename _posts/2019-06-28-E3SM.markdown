@@ -1,7 +1,7 @@
 ---
 title: "E3SM"
 layout: post
-date: 2019-07-09 11：20
+date: 2019-07-17 11：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -60,3 +60,13 @@ setenv LIB_NETCDF /share/apps/netcdf/4.3.2/intel/15.0.1/lib<br>
 
 Some notes from NCAR on how to compile interpinic and other related topic are available at <br> http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x11704.html<br>
 
+## <strong>4. understand the tracers in E3SM</strong>
+In original MOSART, there are only two tracers, water and ice.now with sediment, we have mud as tracer 3, sand as tracer 4
+and maybe temperature as tracer 5. The transport of the ice/mud/sand/tempeature all depend on the water (tracer 1)
+so if one wants to calculate the sediment/heat transport, he needs to calculate the water first using KW or DW, then use the water storage as the base to calculate the concentration of other tracers. Some conductive/diffusive equations may be involved in sediment/heat transport, but not affect the water transport. With that, the sediment transport is the next step of water transport, it won't change the water routing in KW or DW.
+ integer, parameter, public :: nt_rtm = 4    ! number of tracers <br>
+  character(len=3), parameter, public :: rtm_tracers(nt_rtm) =  (/'LIQ','ICE','MUD','SAN'/) <br>
+  integer, parameter, public :: nt_nliq = 1    ! number of tracers <br>
+  integer, parameter, public :: nt_nice = 2    ! number of tracers <br>
+  integer, parameter, public :: nt_nmud = 3    ! number of tracers <br>
+  integer, parameter, public :: nt_nsan = 4    ! number of tracers <br>
