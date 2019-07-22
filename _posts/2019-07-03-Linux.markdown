@@ -31,3 +31,6 @@ output.txt<br>
 #tcsh<br> 
 #echo $FILE<br> 
 output.txt<br> 
+### 2. change bash and csh shell in linux：
+echo $0：check current shell
+input bash will transfer csh to bash, vice versa.
