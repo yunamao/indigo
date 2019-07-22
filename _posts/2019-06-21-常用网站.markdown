@@ -9,14 +9,22 @@ author: yunamao
 description: 操作流程
 ---
 
-- Reanalysis data, satellite data, surface data, climate indices and ocean data: [](http://www.cgd.ucar.edu/cas/catalog/)
+## Simulations:
+- Reanalysis data, satellite data, surface data, climate indices and ocean data: [链接](http://www.cgd.ucar.edu/cas/catalog/)
+- CMIP data:[链接](https://esgf-node.llnl.gov/search/cmip6/)
+- ISIMIP data:[链接](https://www.isimip.org/gettingstarted/#input-data-bias-correction)
+- MSTMIP: Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)
+
+## Observations:
 - GRDC data 下载：[链接](http://www.grdc.sr.unh.edu/html/Data/index.html) <br>
 - National wetlands data in U.S.:[链接](https://www.fws.gov/wetlands/Data/Data-Download.html) <br>
 - GIEMS数据：[链接](https://lerma.obspm.fr/spip.php?article91&lang=en) <br>
 - A Simple Global River Bankfull Width & Depth Database:[链接](http://gaia.geosci.unc.edu/rivers/) <br>
+
+## Flood
 - Global Flood Monitoring System (GFMS):[链接](http://flood.umd.edu/)
 - CaMa-FLOOD:[链接](http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/index.html) <br>
-- MSTMIP: Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)
+
 - Colormap: <br>
   1.colorbrewer:[链接](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=9) <br>
   2.cpt-city:[链接](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) <br>
