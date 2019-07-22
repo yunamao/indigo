@@ -31,3 +31,4 @@ description: 讲座网站
 其他：
 - 审稿意见回复：[链接](http://blog.sciencenet.cn/blog-71964-1080579.html)
 
+-气象家园：[链接](http://bbs.06climate.com/forum.php)
