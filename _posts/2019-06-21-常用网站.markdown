@@ -11,8 +11,8 @@ description: 操作流程
 
 ## Simulations:
 - <strong>Reanalysis data, satellite data, surface data, climate indices and ocean data:</strong> [链接](http://www.cgd.ucar.edu/cas/catalog/)
-- <strong>CMIP data:</strong>[链接](https://esgf-node.llnl.gov/search/cmip6/)
- Using Wget to download:need OpenID and password
+- <strong>CMIP data:</strong>[链接](https://esgf-node.llnl.gov/search/cmip6/)<br>
+ Using Wget to download:need OpenID and password<br>
  1)download wget scripts<br>
  2)bash shell<br>
  3)chmod 755 *.sh<br>
