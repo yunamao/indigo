@@ -10,22 +10,28 @@ description: 操作流程
 ---
 
 ## Simulations:
-- Reanalysis data, satellite data, surface data, climate indices and ocean data: [链接](http://www.cgd.ucar.edu/cas/catalog/)
-- CMIP data:[链接](https://esgf-node.llnl.gov/search/cmip6/)
-- ISIMIP data:[链接](https://www.isimip.org/gettingstarted/#input-data-bias-correction)
-- MSTMIP: Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)
+- <strong>Reanalysis data, satellite data, surface data, climate indices and ocean data:</strong> [链接](http://www.cgd.ucar.edu/cas/catalog/)
+- <strong>CMIP data:</strong>[链接](https://esgf-node.llnl.gov/search/cmip6/)
+ Using Wget to download:need OpenID and password
+ 1)download wget scripts<br>
+ 2)bash shell<br>
+ 3)chmod 755 *.sh<br>
+ 4)./*.sh (if come into problem of "Retrieving Credentials...Connection refused Use --help to display help.Certificate could not be retrieved", use ./*.sh -H to avoid certificate)<br>
+ 
+- <strong>ISIMIP data:</strong>[链接](https://www.isimip.org/gettingstarted/#input-data-bias-correction)
+- <strong>MSTMIP:</strong> Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)
 
 ## Observations:
-- GRDC data 下载：[链接](http://www.grdc.sr.unh.edu/html/Data/index.html) <br>
-- National wetlands data in U.S.:[链接](https://www.fws.gov/wetlands/Data/Data-Download.html) <br>
-- GIEMS数据：[链接](https://lerma.obspm.fr/spip.php?article91&lang=en) <br>
-- A Simple Global River Bankfull Width & Depth Database:[链接](http://gaia.geosci.unc.edu/rivers/) <br>
+- <strong>GRDC data 下载：</strong>[链接](http://www.grdc.sr.unh.edu/html/Data/index.html) <br>
+- <strong>National wetlands data in U.S.:</strong>[链接](https://www.fws.gov/wetlands/Data/Data-Download.html) <br>
+- <strong>GIEMS数据：</strong>[链接](https://lerma.obspm.fr/spip.php?article91&lang=en) <br>
+- <strong>A Simple Global River Bankfull Width & Depth Database:</strong>[链接](http://gaia.geosci.unc.edu/rivers/) <br>
 
 ## Flood
-- Global Flood Monitoring System (GFMS):[链接](http://flood.umd.edu/)
-- CaMa-FLOOD:[链接](http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/index.html) <br>
+- <strong>Global Flood Monitoring System (GFMS):</strong>[链接](http://flood.umd.edu/)
+- <strong>CaMa-FLOOD:</strong>[链接](http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/index.html) <br>
 
-- Colormap: <br>
+- <strong>Colormap:</strong> <br>
   1.colorbrewer:[链接](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=9) <br>
   2.cpt-city:[链接](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) <br>
 
