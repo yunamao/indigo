@@ -34,3 +34,22 @@ output.txt<br>
 ### 2. change bash and csh shell in linux：
 echo $0：check current shell
 input bash will transfer csh to bash, vice versa.
+### 3. linux redirection output
+when i ncdump -h a large file who have many variables, if i ncdump -h it in the logging window, i just see a part of variables. To solve this problem, i can redirect the output to a new file. <br>
+such as (1)ncdump -h *.nc >& test.txt (2) vi test.txt <br>
+
+>name means redirect output to file name.<br>
+>&number means redirect output to file descriptor number.<br>
+
+So the & is needed to tell the shell you mean a file descriptor, not a file name.<br>
+
+A file descriptor is a number that refers to an already open file. The standard ones are 0 for standard input, 1 for standard output or 2 for standard error. You can also use any other number, which will create a new file descriptor, just like when you create a new variable with var=value.<br>
+
+Example:
+In case of >
+eg. cat abc.txt > pqr.txt
+The contents of pqr.txt will be replaced with that of abc.txt
+
+In case of >>
+eg. cat abc.txt >> pqr.txt
+The contents of abc.txt will be appended with that pqr.txt at the end.
