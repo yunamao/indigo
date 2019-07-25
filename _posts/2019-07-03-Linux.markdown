@@ -9,9 +9,8 @@ author: yunamao
 description: 操作流程
 ---
 ### 1. common command and operators：
-<strong>command:</strong> man, ls, ls -l, ls -a, ls -la, cd, cd ../,pwd,touch,mkdir,rm,rm -rf, cat(list file contents), less(list file contents-one screen at a time), tail(liss the end of a file), tail -n(list the last n lines of a file),cp,mv,echo(echo values to the screen, echo $path), grep(text search utility),ps(list currently running processes)
-<strong>operator:</strong>
->(redirection output to a file),<(redirect a file to a command),>>(redirect output and append to a file),1>filename(redirect stdout to a file, stdout is where program writes its output), 2>filename(redirect stderr to a file, stderr is where program writes errors), 2>&1(redirects stderr to stdout), |(combine simple command, ls -l | grep test means list all filenames that contain 'test')
+<strong>command:</strong> man, ls, ls -l, ls -a, ls -la, cd, cd ../,pwd,touch,mkdir,rm,rm -rf, cat(list file contents), less(list file contents-one screen at a time), tail(liss the end of a file), tail -n(list the last n lines of a file),cp,mv,echo(echo values to the screen, echo $path), grep(text search utility),ps(list currently running processes) <br>
+<strong>operator:</strong> >(redirection output to a file),<(redirect a file to a command),>>(redirect output and append to a file),1>filename(redirect stdout to a file, stdout is where program writes its output), 2>filename(redirect stderr to a file, stderr is where program writes errors), 2>&1(redirects stderr to stdout), |(combine simple command, ls -l | grep test means list all filenames that contain 'test')
 ### 2. export, set和setenv区别：
 
  export, set and setenv commands are used in UNIX for setting value of a variable or an environment variable.<br>
