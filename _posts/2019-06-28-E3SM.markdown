@@ -73,3 +73,4 @@ so if one wants to calculate the sediment/heat transport, he needs to calculate 
   integer, parameter, public :: nt_nsan = 4    ! number of tracers <br>
   ## <strong>5. Creating a domain file for CLM and DATM</strong>
   [链接](http://www.cesm.ucar.edu/models/cesm1.1/clm/models/lnd/clm/doc/UsersGuide/x8342.html)
+  ## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)
