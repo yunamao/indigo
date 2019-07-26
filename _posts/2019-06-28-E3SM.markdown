@@ -1,7 +1,7 @@
 ---
 title: "E3SM"
 layout: post
-date: 2019-07-25 11：20
+date: 2019-07-26 11：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -74,3 +74,6 @@ so if one wants to calculate the sediment/heat transport, he needs to calculate 
   ## <strong>5. Creating a domain file for CLM and DATM</strong>
   [链接](http://www.cesm.ucar.edu/models/cesm1.1/clm/models/lnd/clm/doc/UsersGuide/x8342.html)
   ## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)
+  ## <strong>7. Problems when running E3SM</strong>:
+  (2) ERROR timeaddmonths():  MM out of range : check the dates representation in env_run.xml to make sure correct dates.
+
