@@ -38,5 +38,5 @@ description: 操作流程
   2.cpt-city:[链接](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) <br>
   
 ## <strong>Reference tool:</strong> <br>
-  1.endnote[链接](https://endnote.com/)
-  2. mendeley[链接](https://www.mendeley.com/?interaction_required=true)
+  1.endnote[链接](https://endnote.com/)<br>
+  2.mendeley[链接](https://www.mendeley.com/?interaction_required=true)<br>
