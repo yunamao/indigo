@@ -55,3 +55,6 @@ The contents of pqr.txt will be replaced with that of abc.txt
 In case of >>
 eg. cat abc.txt >> pqr.txt
 The contents of abc.txt will be appended with that pqr.txt at the end.
+
+### Set environment variables
+CARVEATS: Usually, you can’t modify content in the .cshrc file. If you want to change some environment variables, you can just set it in the logging node, and if you log out, this set will lose effect. For example, if you want set “setenv LD_LIBRARY_PATH /projects/ops/apps/rh6/matlab/2017a/sys/opengl/lib/glnxa64” , you just input the command in the logging node and don’t change it in the .cshrc files.
