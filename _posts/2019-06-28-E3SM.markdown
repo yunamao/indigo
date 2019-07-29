@@ -1,7 +1,7 @@
 ---
 title: "E3SM"
 layout: post
-date: 2019-07-26 11：20
+date: 2019-07-29 11：20
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -71,9 +71,33 @@ so if one wants to calculate the sediment/heat transport, he needs to calculate 
   integer, parameter, public :: nt_nice = 2    ! number of tracers <br>
   integer, parameter, public :: nt_nmud = 3    ! number of tracers <br>
   integer, parameter, public :: nt_nsan = 4    ! number of tracers <br>
-  ## <strong>5. Creating a domain file for CLM and DATM</strong>
-  [链接](http://www.cesm.ucar.edu/models/cesm1.1/clm/models/lnd/clm/doc/UsersGuide/x8342.html)
-  ## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)
-  ## <strong>7. Problems when running E3SM</strong>:
-  (2) ERROR timeaddmonths():  MM out of range : check the dates representation in env_run.xml to make sure correct dates.
+  
+## <strong>5. Creating a domain file for CLM and DATM</strong>
+  [链接](http://www.cesm.ucar.edu/models/cesm1.1/clm/models/lnd/clm/doc/UsersGuide/x8342.html)<br>
+  
+## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)<br>
+
+## <strong>7. Problems when running E3SM</strong>:
+(1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.
+(2)<strong> module build failure:</strong>
+gmake: Leaving directory `/pic/scratch/maoy573/csmruns/test1/bld/intel/mvapich2/nodebug/nothreads/mct/pio/pio1'<br>
+cat: Filepath: No such file or directory<br><br>
+cat: Srcfiles: No such file or directory<br>
+%file_modules<br>
+%file_includes<br>
+@check_includes<br>
+
+cmake: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.18' not found (required by cmake)<br>
+cmake: /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.5' not found (required by cmake)<br>
+cmake: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.14' not found (required by cmake)<br>
+cmake: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.15' not found (required by cmake)<br>
+cmake: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by cmake)<br>
+gmake: *** [/pic/scratch/maoy573/csmruns/test1/bld/intel/mvapich2/nodebug/nothreads/mct/pio/pio1/Makefile] Error 1<br>
+ERROR: cat: Filepath: No such file or directory<br>
+cat: Srcfiles: No such file or directory<br>
+%file_modules<br>
+%file_includes<br>
+@check_includes<br>
+
+<strong>solution:</strong> comment out “module load python” and “module load matlab” in .cshrc file. Before trying to build the model again, please fire a new shell. Old variables can stay in the old shell so you might get the same error again.
 
