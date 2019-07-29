@@ -78,8 +78,8 @@ so if one wants to calculate the sediment/heat transport, he needs to calculate 
 ## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)<br>
 
 ## <strong>7. Problems when running E3SM</strong>:
-(1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.
-(2)<strong> module build failure:</strong>
+(1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.<br>
+(2)<strong> module build failure:</strong>  <br>
 gmake: Leaving directory `/pic/scratch/maoy573/csmruns/test1/bld/intel/mvapich2/nodebug/nothreads/mct/pio/pio1'<br>
 cat: Filepath: No such file or directory<br><br>
 cat: Srcfiles: No such file or directory<br>
