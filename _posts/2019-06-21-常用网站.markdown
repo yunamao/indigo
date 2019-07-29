@@ -1,5 +1,5 @@
 ---
-title: "Datasets"
+title: "Datasets and tools"
 layout: post
 date: 2019-07-22 12：07
 image: /assets/images/markdown.jpg
@@ -18,10 +18,10 @@ description: 操作流程
  3)chmod 755 *.sh<br>
  4)./*.sh (if come into problem of "Retrieving Credentials...Connection refused Use --help to display help.Certificate could not be retrieved", use ./*.sh -H to avoid certificate)<br>
  
-- <strong>ISIMIP data:</strong>[链接](https://www.isimip.org/gettingstarted/#input-data-bias-correction)
-- <strong>MSTMIP:</strong> Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)
-- <strong>GSWP V1:</strong>[链接](http://search.diasjp.net/en/dataset/GSWP3_EXP1_Forcing)
-- <strong>CRUNCEP V7:</strong>[链接](https://rda.ucar.edu/datasets/ds314.3/)
+- <strong>ISIMIP data:</strong>[链接](https://www.isimip.org/gettingstarted/#input-data-bias-correction)<br>
+- <strong>MSTMIP:</strong> Multi-scale Synthesis and Terrestrial Model Intercomparison Project[链接](https://nacp.ornl.gov/MsTMIP.shtml)<br>
+- <strong>GSWP V1:</strong>[链接](http://search.diasjp.net/en/dataset/GSWP3_EXP1_Forcing)<br>
+- <strong>CRUNCEP V7:</strong>[链接](https://rda.ucar.edu/datasets/ds314.3/)<br>
 ## Observations:
 - <strong>GRDC data 下载：</strong>[链接](http://www.grdc.sr.unh.edu/html/Data/index.html) <br>
 - <strong>National wetlands data in U.S.:</strong>[链接](https://www.fws.gov/wetlands/Data/Data-Download.html) <br>
@@ -32,9 +32,9 @@ description: 操作流程
 - <strong>Global Flood Monitoring System (GFMS):</strong>[链接](http://flood.umd.edu/)
 - <strong>CaMa-FLOOD:</strong>[链接](http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/index.html) <br>
 
-- <strong>Colormap:</strong> <br>
+## <strong>Colormap:</strong> <br>
   1.colorbrewer:[链接](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=9) <br>
   2.cpt-city:[链接](http://soliton.vm.bytemark.co.uk/pub/cpt-city/) <br>
-- <strong>reference tool:</strong> <br>
+## <strong>Reference tool:</strong> <br>
   1.endnote[链接](https://endnote.com/)
   2. mendeley[链接](https://www.mendeley.com/?interaction_required=true)
