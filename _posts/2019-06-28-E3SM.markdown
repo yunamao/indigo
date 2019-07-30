@@ -117,6 +117,33 @@ yvals     = 88.5419501 86.6531672 84.7532299 82.8507725 80.947359 79.043483 77.1
     cdo griddes: Processed 1 variable ( 0.01s )<br>
 (2)cat > mygrid << EOR [链接](https://code.mpimet.mpg.de/boards/1/topics/456) %%%create target grid, paste the above information into   mygrid file <br>
 (3)cdo remapbil,mygrid infile outfile %%%%billinear interpolation
+if run in script, refer to the following codes: <br>
+#!/bin/csh<br>
+
+#SBATCH --job-name=corr1    ## job_name<br>
+#SBATCH --partition=slurm<br>
+#SBATCH --account=iesm       ## project_name<br>
+#SBATCH --time=10:00:00     ## time_limit<br>
+#SBATCH --nodes=1            ## number_of_nodes<br>
+#SBATCH --ntasks-per-node=24             ## number_of_cores<br>
+#SBATCH --output=mat.stdout1   ## job_output_filename<br>
+#SBATCH --error=mat.stderr1  ## job_errors_filename<br>
+
+set indir=/qfs/people/zhou014/E3SM_dir/V2/datasets/Climate_forcing/GPCC_noleap<br>
+set outdir=/pic/projects/climate/maoy573/database/QIAN_T62<br>
+
+set i=1979<br>
+
+while ($i <= 2008)<br>
+   echo $i<br>
+ 
+  foreach j (01 02 03 04 05 06 07 08 09 10 11 12)<br>
+      set infile=$outdir/clmforc.princeton.GPCC.$i-$j.nc<br>
+	  set outfile=$outdir/clmforc.princeton.GPCC.T62.$i-$j.nc<br>
+      cdo remapbil,mygrid $infile $outfile <br>
+  end<br>
+@ i++<br>
+ end<br>
 
 ## <strong>9. Problems when running E3SM</strong>:
 (1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.<br>
