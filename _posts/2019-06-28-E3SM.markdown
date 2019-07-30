@@ -77,7 +77,50 @@ so if one wants to calculate the sediment/heat transport, he needs to calculate 
   
 ## <strong>6. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)<br>
 
-## <strong>7. Problems when running E3SM</strong>:
+## <strong>7. Spinning up the CLM4.5 biogeochemistry (CLMBGC spinup)</strong>:[链接](http://www.cesm.ucar.edu/models/cesm1.2/clm/models/lnd/clm/doc/UsersGuide/x12544.html)<br>
+
+## <strong>8. remap</strong>:
+(1)cdo -griddes -topo,t62grid %%check the T62 grid  <br>
+output: <br>
+cdo griddes: Started child process "topo,t62grid (pipe1.1)". <br>
+cdo(2) topo: Set default filetype to GRIB <br>
+# <br>
+# gridID 1 <br>
+#<br>
+gridtype  = gaussian<br>
+gridsize  = 18048<br>
+xname     = lon<br>
+xlongname = longitude<br>
+xunits    = degrees_east<br>
+yname     = lat<br>
+ylongname = latitude<br>
+yunits    = degrees_north<br>
+np        = 47<br>
+xsize     = 192<br>
+ysize     = 94<br>
+xfirst    = 0<br>
+xinc      = 1.875<br>
+yvals     = 88.5419501 86.6531672 84.7532299 82.8507725 80.947359 79.043483 77.1393485 <br>
+            75.235055 73.3306569 71.4261861 69.5216631 67.617101 65.7125091 63.8078939 <br>
+            61.9032601 59.9986113 58.0939502 56.1892789 54.284599 52.3799119 50.4752186 <br>
+            48.57052 46.6658167 44.7611095 42.8563988 40.9516851 39.0469686 37.1422497 <br>
+            35.2375288 33.3328059 31.4280814 29.5233554 27.618628 25.7138995 23.80917 <br>
+            21.9044395 19.9997081 18.0949761 16.1902434 14.2855101 12.3807763 10.4760422 <br>
+            8.5713077 6.66657293 4.76183796 2.85710283 0.952367621 -0.952367621 -2.85710283 <br>
+            -4.76183796 -6.66657293 -8.5713077 -10.4760422 -12.3807763 -14.2855101 <br>
+            -16.1902434 -18.0949761 -19.9997081 -21.9044395 -23.80917 -25.7138995 <br>
+            -27.618628 -29.5233554 -31.4280814 -33.3328059 -35.2375288 -37.1422497 <br>
+            -39.0469686 -40.9516851 -42.8563988 -44.7611095 -46.6658167 -48.57052 <br>
+            -50.4752186 -52.3799119 -54.284599 -56.1892789 -58.0939502 -59.9986113 <br>
+            -61.9032601 -63.8078939 -65.7125091 -67.617101 -69.5216631 -71.4261861 <br>
+            -73.3306569 -75.235055 -77.1393485 -79.043483 -80.947359 -82.8507725 <br>
+            -84.7532299 -86.6531672 -88.5419501 <br>
+cdo(2) topo:  ( 0.01s )<br>
+cdo griddes: Processed 1 variable ( 0.01s )<br>
+(2)cat > mygrid << EOR [链接](https://code.mpimet.mpg.de/boards/1/topics/456) %%%create target grid, paste the above information into mygrid file <br>
+(3)cdo remapbil,mygrid infile outfile %%%%billinear interpolation
+
+## <strong>9. Problems when running E3SM</strong>:
 (1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.<br>
 (2)<strong> module build failure:</strong>  <br>
 gmake: Leaving directory `/pic/scratch/maoy573/csmruns/test1/bld/intel/mvapich2/nodebug/nothreads/mct/pio/pio1'<br>
