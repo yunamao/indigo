@@ -42,5 +42,6 @@ description: 操作流程
   2.mendeley[链接](https://www.mendeley.com/?interaction_required=true)<br>
 ##  reviewer
 [链接](http://blog.sciencenet.cn/blog-60980-975231.html)
-## <strong>查询JCR分区</strong> <br>:(1)[ISO 期刊分区](https://apps.clarivate.com/jif/home/) (2)[中科院分区](http://www.fenqubiao.com/?AspxAutoDetectCookieSupport=1)
+## <strong>查询JCR分区</strong> <br>: <br>
+(1)[ISO 期刊分区](https://apps.clarivate.com/jif/home/) (2)[中科院分区](http://www.fenqubiao.com/?AspxAutoDetectCookieSupport=1)
 
