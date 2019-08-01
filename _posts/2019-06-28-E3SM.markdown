@@ -146,8 +146,11 @@ while ($i <= 2008)<br>
  end<br>
 
 ## <strong>9. modify the climate forcing </strong>: [链接](http://www.cesm.ucar.edu/models/cesm1.2/data8/doc/c72.html)
+## <strong>10. add one dimension </strong>: [链接](https://sourceforge.net/p/nco/discussion/9830/thread/cee4e1ad/)
+ncap2 -Oh -s 'defdim("tbnds",2) ; time[time]={15.5, 45, 74.5, 105, 135.5, 166, 196.5, 227.5, 258, 288.5,319, 349.5} ; time_bnds[time,tbnds]={0, 31, 31, 59, 59, 90, 90, 120, 120, 151, 151, 181, 181, 212, 212, 243, 243, 273, 273, 304, 304, 334, 334, 365.} ; time@units="days since 1900-01-01 00:00:00" ; time@calendar="NOLEAP" ; time@bounds="time_bnds"; time=time+(1980-1900)365 ; time_bnds[time,tbnds]=time_bnds[time,tbnds]+(1980-1900)365' infile.nc outfile.nc
 
-## <strong>10. Problems when running E3SM</strong>:
+
+## <strong>11. Problems when running E3SM</strong>:
 (1) <strong>ERROR timeaddmonths():  MM out of range : </strong>check the dates representation in env_run.xml to make sure correct dates.<br>
 (2)<strong> module build failure:</strong>  <br>
 gmake: Leaving directory `/pic/scratch/maoy573/csmruns/test1/bld/intel/mvapich2/nodebug/nothreads/mct/pio/pio1'<br>
