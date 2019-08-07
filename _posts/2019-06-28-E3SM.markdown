@@ -10,7 +10,8 @@ description: 操作流程
 ---
 
 ##### 模式学习可以参考 CESM tutorial: 
-[链接](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
+[链接1](http://www.cesm.ucar.edu/events/tutorials/?ref=nav)
+[链接2](http://www.cesm.ucar.edu/models/paleo/faq/)
 
 ##  <strong>1.Compiler and libraries：</strong>
 <strong>Question:</strong>how to load the proper compiler for specific tool. Take ncview for example,  both pgi and intel can make ncview work. <br>
