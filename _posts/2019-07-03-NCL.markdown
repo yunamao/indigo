@@ -1,0 +1,16 @@
+---
+title: "NCL"
+layout: post
+date: 2019-08-08 18:28
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: yunamao
+description: 操作流程
+---
+
+### 1.Execute ncl script
+
+ncl –n my_script.ncl | tail -1<br>
+"-n" prevents the enumeration and tail -1 only pint the last line.<br>
+ 
