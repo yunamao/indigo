@@ -13,4 +13,4 @@ description: 操作流程
 
 ncl –n my_script.ncl | tail -1<br>
 "-n" prevents the enumeration and tail -1 only pint the last line.<br>
- 
+### 2.use CDO toextract some variables or time steps of your data before you import it in NCL, especially when you work with large file sizes (> 2 GB).
