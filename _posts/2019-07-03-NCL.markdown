@@ -9,8 +9,9 @@ author: yunamao
 description: 操作流程
 ---
 ### 1.ncl learning can refer to [NCL tutorial](https://www.ncl.ucar.edu/Document/Manuals/NCL_User_Guide/NCL_User_Guide_v1.1_Legal.pdf)
-### 2.Execute ncl script
+### 2.Execute ncl script<br>
 
 ncl –n my_script.ncl | tail -1<br>
 "-n" prevents the enumeration and tail -1 only pint the last line.<br>
-### 3.use CDO toextract some variables or time steps of your data before you import it in NCL, especially when you work with large file sizes (> 2 GB).
+### 3.use CDO toextract some variables or time steps of your data before you import it in NCL, especially when you work with large file sizes (> 2 GB).<br>
+### 4.printVarSummary procedure should be used frequently when debugging code<br>
