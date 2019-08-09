@@ -15,3 +15,6 @@ ncl –n my_script.ncl | tail -1<br>
 "-n" prevents the enumeration and tail -1 only pint the last line.<br>
 ### 3.use CDO toextract some variables or time steps of your data before you import it in NCL, especially when you work with large file sizes (> 2 GB).<br>
 ### 4.printVarSummary procedure should be used frequently when debugging code<br>
+### 5.This yields a special type of list: the file list type:<br>
+files = systemfunc("ls *.nc") ; NetCDF file names<br>
+f = addfiles(files, "r") ; data type ‘list’<br>
