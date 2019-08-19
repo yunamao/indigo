@@ -68,6 +68,9 @@ CARVEATS: Usually, you can’t modify content in the .cshrc file. If you want to
 ncks -a -x -v var1,var2.. in.nc out.nc <br>
 ### 9.just output nc variable name <br>
 ncdump -h *.nc > e | cat e | grep double > var <br>
+### 10.transfer files between windows and linux [link](https://www.makeuseof.com/tag/transfer-share-files-windows-linux/)<br>
+I found that the third method using ftp app such as FileZilla is practical and easier. <br>
+when open the filezilla software, input hostname, username and password will connect to the cluster. <br>
 ### Problems
 (1)when try to use ncdump command, i should load intel compiler and netcdf model. If i just input "module load intel netcdf", i will come into a problem "ncdump: error while loading shared libraries: libimf.so: cannot open shared object file: No such file or directory
 ", which is because the unmatch of intel and netcdf version. For example, in Constance cluster, i can just input command "module load pgi netcdf", while in eastwind cluster, i should input "module load intel/12.1.3.293
