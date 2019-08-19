@@ -27,3 +27,5 @@ y = detrend(x,’linear’,bp) to remove a continuous, piecewise linear trend fr
 [1] https://geosci.xyz:  using Jupyter notebook for data analysis in applied geophysics, atmospheric, ocean and climate sciences; <br>
 
 [2] http://pangeo.io/: open science community platform for geoscienc. <br>
+### 3.<strong> download data from ftp site</strong><br>
+从计算机（我的电脑）上登陆，先打开计算机（我的电脑），在最上方输入栏中输入如图所示的命令（ftp://ip地址），然后按回车 <br>
