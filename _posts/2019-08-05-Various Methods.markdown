@@ -22,10 +22,8 @@ matlab:<br>
 y = detrend(x) to remove the best straight-line fit from vector x.<br>
 y = detrend(x,’constant’) to remove the mean value from vector x.<br>
 y = detrend(x,’linear’,bp) to remove a continuous, piecewise linear trend from vector x.)<br>
-### 1. <strong> analysis tool </strong><br>
+### 2. <strong> analysis tool </strong><br>
 
-There exists a number of repositories on Github using Jupyter notebook for data analysis in applied geophysics, atmospheric, ocean and climate sciences [1].  There is also an open science community platform for geoscience called Pangeo [2]. As far as we know, few notebooks are available for visualizing and analyzing hydrologic data. Thus our work will contribute to the geoscience community.
+[1] https://geosci.xyz:  using Jupyter notebook for data analysis in applied geophysics, atmospheric, ocean and climate sciences; <br>
 
-[1] https://geosci.xyz
-
-[2] http://pangeo.io/
+[2] http://pangeo.io/: open science community platform for geoscienc. <br>
