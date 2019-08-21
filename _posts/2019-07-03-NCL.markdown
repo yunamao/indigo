@@ -18,3 +18,6 @@ ncl –n my_script.ncl | tail -1<br>
 ### 5.This yields a special type of list: the file list type:<br>
 files = systemfunc("ls *.nc") ; NetCDF file names<br>
 f = addfiles(files, "r") ; data type ‘list’<br>
+### 6.[cd_calendar](https://www.ncl.ucar.edu/Document/Functions/Built-in/cd_calendar.shtml) <br>
+Converts a mixed Julian/Gregorian date to a UT-referenced date.<br>
+
