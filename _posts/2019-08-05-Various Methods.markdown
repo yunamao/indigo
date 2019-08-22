@@ -32,4 +32,4 @@ y = detrend(x,’linear’,bp) to remove a continuous, piecewise linear trend fr
 
 ### 4. latitude and longitude description
 
-![lat_lon](/assets/lat_lon_scheme.jpg)
+![lat_lon](lat_lon_scheme.jpg)
