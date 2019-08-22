@@ -1,7 +1,7 @@
 ---
 title: "Various methods"
 layout: post
-date: 2019-08-19 18:28
+date: 2019-08-22 18:28
 image: /assets/images/markdown.jpg
 headerImage: false
 category: blog
@@ -32,4 +32,4 @@ y = detrend(x,’linear’,bp) to remove a continuous, piecewise linear trend fr
 
 ### 4. latitude and longitude description
 
-![](lat_lon_scheme.jpg)
+![](/assets/lat_lon_scheme.jpg)
