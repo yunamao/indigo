@@ -17,7 +17,7 @@ description: 讲座网站
 2.拿出中国自己的气候数据，2018：[链接](http://edu.sina.com.cn/l/2018-03-28/doc-ifysqfnh7705613.shtml)
 
 
-### (3博后导师：Ruby Leung
+### (3博后导师：[Ruby Leung](https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=5661)
 
 1.Quantifying uncertainties in Hydrologic Parameter in the Community Land Model,25min，2012:  [链接](https://www.pathlms.com/siam/courses/2716/sections/3522/video_presentations/28942) <br>
 2.On representing hydrologic processes and their interactions in earth system models,47min,2015:[链接](https://www.youtube.com/watch?v=KxksJsigJC4) <br>
